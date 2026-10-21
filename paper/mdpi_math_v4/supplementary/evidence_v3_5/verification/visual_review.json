@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "inspected_main_pages": [
+    3,
+    4,
+    30,
+    31,
+    32
+  ],
+  "inspected_supplement_pages": [
+    22,
+    23,
+    24,
+    25
+  ],
+  "new_figures": [
+    "fresh_depth_inference",
+    "fresh_accuracy_cost"
+  ],
+  "observations": [
+    "Fixed actual inference with shared depth/error scales; no clipping or overlap.",
+    "Accuracy and cost plots retain unfavorable outcomes.",
+    "Readable summary/full tables and S14 joint derivation.",
+    "Related table uses normal float placement to avoid blank area.",
+    "Supplement new citations use its numeric bibliography format."
+  ]
+}

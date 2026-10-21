@@ -1,0 +1,741 @@
+{
+  "status": "frozen_before_prediction_and_scoring",
+  "date_utc": "2026-10-09T13:51:24Z",
+  "data_role": "new_output_filter_replication_on_reused_project_datasets",
+  "models": {
+    "da2_small": {
+      "name": "depth-anything/Depth-Anything-V2-Small-hf",
+      "revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
+      "local_path": "/home/hyunsu/.cache/huggingface/hub/models--depth-anything--Depth-Anything-V2-Small-hf/snapshots/5426e4f0f36572d16453bbda7a8389317b1bef99",
+      "files": {
+        "config.json": "c56698d3643dde1f83ea2212759e6b31a22b8f827246a36dd007ee8a22b3ff75",
+        "model.safetensors": "3152477ce0d8d6978d76b995120de97cb5b928701fd0f817769f59e249a16b70",
+        "preprocessor_config.json": "d41175c0d889477ca8fc67191e540faef14baf6275157b3fdecf78469e6bbf84"
+      }
+    },
+    "zoedepth": {
+      "name": "Intel/zoedepth-nyu-kitti",
+      "revision": "f364d4c7936e91f465abba182208dd68142bf0ca",
+      "local_path": "/home/hyunsu/.cache/huggingface/hub/models--Intel--zoedepth-nyu-kitti/snapshots/f364d4c7936e91f465abba182208dd68142bf0ca",
+      "files": {
+        "config.json": "58494c160c520023c4d5bdeebb3b2d035e37e48cc81225580f49fcb06e175913",
+        "model.safetensors": "c5494fa0938f18d71e215e245472470c3aefebd7b434abd89750e5ae4008e2dc",
+        "preprocessor_config.json": "0b64d8edc980d7b7abb819085650c43da8b8183acbd4336ab5a9e0e9caf4648e"
+      }
+    }
+  },
+  "frames": [
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_balloon",
+      "frame": "1548266474.77829",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon/rgb/1548266474.77829.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon/depth/1548266474.78734.png",
+      "pair_gap_s": 0.00904989242553711,
+      "fraction": 0.3333333333333333,
+      "ordinal": 146,
+      "population": 438,
+      "max_depth": 10.0,
+      "id": "f00",
+      "rgb_sha256": "f1744d3531f7f392992255d2cc025e3ada7b177f1488c3cbee843ed0c5f23143",
+      "depth_sha256": "0d2b775ece1a795d107c6478042751b60f396de62599c8bc1b947c780b305436",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_balloon",
+      "frame": "1548266479.63835",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon/rgb/1548266479.63835.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon/depth/1548266479.62579.png",
+      "pair_gap_s": 0.012559890747070312,
+      "fraction": 0.6666666666666666,
+      "ordinal": 291,
+      "population": 438,
+      "max_depth": 10.0,
+      "id": "f01",
+      "rgb_sha256": "f4b4b4581f0604426a0807b357804f90070f8d412f506a3237b5ec8feaf0979a",
+      "depth_sha256": "dd6208d57909e87be6e1ecdcc265f41273eb8d632114fcbe87e65b8884eee82a",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_balloon2",
+      "frame": "1548266535.74084",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon2/rgb/1548266535.74084.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon2/depth/1548266535.74633.png",
+      "pair_gap_s": 0.00549006462097168,
+      "fraction": 0.3333333333333333,
+      "ordinal": 156,
+      "population": 469,
+      "max_depth": 10.0,
+      "id": "f02",
+      "rgb_sha256": "5608d72f68de24b3198fc05ec48ee7016f1d90338408bf6cd4b2174188af06cd",
+      "depth_sha256": "9711e59b324e4b0b84e15f8086d510b53f057c26b894868944d8137ac42e2228",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_balloon2",
+      "frame": "1548266540.96855",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon2/rgb/1548266540.96855.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon2/depth/1548266540.98485.png",
+      "pair_gap_s": 0.016299962997436523,
+      "fraction": 0.6666666666666666,
+      "ordinal": 312,
+      "population": 469,
+      "max_depth": 10.0,
+      "id": "f03",
+      "rgb_sha256": "0926d47d2ba466f360f37d4b2aaed56a0e302d6829523a1b5e079ffebb784054",
+      "depth_sha256": "d47e5c9608c0c306d8d642cd09695c3e0ced886c02822d89ae2b17aa1fb23fcd",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_balloon_tracking",
+      "frame": "1548266640.06707",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon_tracking/rgb/1548266640.06707.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon_tracking/depth/1548266640.08064.png",
+      "pair_gap_s": 0.013570070266723633,
+      "fraction": 0.3333333333333333,
+      "ordinal": 196,
+      "population": 590,
+      "max_depth": 10.0,
+      "id": "f04",
+      "rgb_sha256": "bc49d656904afbdb57e4e4837af82762d17c5a2ee36a53bc282680fa7613664b",
+      "depth_sha256": "be003e01fbd94811a87ae6744af0e4a7bc29bc115bd215329e9630f9caecd266",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_balloon_tracking",
+      "frame": "1548266646.66974",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon_tracking/rgb/1548266646.66974.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon_tracking/depth/1548266646.65387.png",
+      "pair_gap_s": 0.015869855880737305,
+      "fraction": 0.6666666666666666,
+      "ordinal": 393,
+      "population": 590,
+      "max_depth": 10.0,
+      "id": "f05",
+      "rgb_sha256": "8f74b5be475fae50f1c84ea2e85726576320e66227a7ee99d854ca48ade02033",
+      "depth_sha256": "dddece9ebffb5f26ccc8c5f0abcd29aa3fbb3727bd8333891ecfe04ba79d0e2c",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_balloon_tracking2",
+      "frame": "1548266682.39500",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon_tracking2/rgb/1548266682.39500.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon_tracking2/depth/1548266682.37997.png",
+      "pair_gap_s": 0.0150299072265625,
+      "fraction": 0.3333333333333333,
+      "ordinal": 150,
+      "population": 451,
+      "max_depth": 10.0,
+      "id": "f06",
+      "rgb_sha256": "a621a3749a279bda5fac6cab692839bab50ce78ab70c68f2372fd8d4702a3723",
+      "depth_sha256": "771308e569bd40a2788f0f515c97a5a2c6baeaa097235b302ee11af1e9a42bad",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_balloon_tracking2",
+      "frame": "1548266687.42249",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon_tracking2/rgb/1548266687.42249.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_balloon_tracking2/depth/1548266687.41830.png",
+      "pair_gap_s": 0.004189968109130859,
+      "fraction": 0.6666666666666666,
+      "ordinal": 300,
+      "population": 451,
+      "max_depth": 10.0,
+      "id": "f07",
+      "rgb_sha256": "5d42db331b6cfa68c528285c72ba5ad81f9a29e5b784a4138efaba39fbf0b6f5",
+      "depth_sha256": "9213193824313c3b6b61f9c083edad9467c3cb589021e8fb4818ce130dfc21be",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_crowd",
+      "frame": "1548339830.23179",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_crowd/rgb/1548339830.23179.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_crowd/depth/1548339830.23262.png",
+      "pair_gap_s": 0.0008299350738525391,
+      "fraction": 0.3333333333333333,
+      "ordinal": 309,
+      "population": 927,
+      "max_depth": 10.0,
+      "id": "f08",
+      "rgb_sha256": "4c337c3f67b72d22d6e8f1e80eecc1da5f6c856e7af46b33a3f786ccea6c399e",
+      "depth_sha256": "5bc8a418b8d48c960e4efe4cb1a2630cb5c4cf25f86978b326aefe07604917ea",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_crowd",
+      "frame": "1548339840.55440",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_crowd/rgb/1548339840.55440.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_crowd/depth/1548339840.54332.png",
+      "pair_gap_s": 0.011080026626586914,
+      "fraction": 0.6666666666666666,
+      "ordinal": 617,
+      "population": 927,
+      "max_depth": 10.0,
+      "id": "f09",
+      "rgb_sha256": "2ae2b297820c3e495460f5a223b206f928d83c066b74ef534f8ad21d42a1b5df",
+      "depth_sha256": "ed0710146f72e13fb1c1d47b8ef11fba14489f36da70226913bfe712ed7e320f",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_crowd2",
+      "frame": "1548339902.22078",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_crowd2/rgb/1548339902.22078.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_crowd2/depth/1548339902.23743.png",
+      "pair_gap_s": 0.01665019989013672,
+      "fraction": 0.3333333333333333,
+      "ordinal": 298,
+      "population": 895,
+      "max_depth": 10.0,
+      "id": "f10",
+      "rgb_sha256": "c44e9913037e696568e857c7d17a2207e13a4a69c037406cb111f42d1cf6bfd7",
+      "depth_sha256": "d0b374ba98d9bb7d2d4c1eb3c00896cfc87ed1546f1545e7a875c813121fb8bc",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_crowd2",
+      "frame": "1548339912.20818",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_crowd2/rgb/1548339912.20818.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_crowd2/depth/1548339912.21446.png",
+      "pair_gap_s": 0.006279945373535156,
+      "fraction": 0.6666666666666666,
+      "ordinal": 596,
+      "population": 895,
+      "max_depth": 10.0,
+      "id": "f11",
+      "rgb_sha256": "b4d1c24f07347bd2238b4df5b39ae8ee31dc78b4064794b31517f75a6bdf97fd",
+      "depth_sha256": "0ae86d447dc5881d32cc2858bbf70218bc4f845fd671964e16fae88fc99cae7b",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_crowd3",
+      "frame": "1548339968.71476",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_crowd3/rgb/1548339968.71476.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_crowd3/depth/1548339968.70982.png",
+      "pair_gap_s": 0.004940032958984375,
+      "fraction": 0.3333333333333333,
+      "ordinal": 282,
+      "population": 847,
+      "max_depth": 10.0,
+      "id": "f12",
+      "rgb_sha256": "7d40dfb4c8267a119516f13f36465aa84718be0ec724df146af8d5082508ba97",
+      "depth_sha256": "c9dafac4922896050e8c6becb89ef7a4638197d8a16c154ca6ac5ad0ba0a3fe2",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_crowd3",
+      "frame": "1548339978.19951",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_crowd3/rgb/1548339978.19951.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_crowd3/depth/1548339978.18632.png",
+      "pair_gap_s": 0.013190031051635742,
+      "fraction": 0.6666666666666666,
+      "ordinal": 564,
+      "population": 847,
+      "max_depth": 10.0,
+      "id": "f13",
+      "rgb_sha256": "364266a9642132ee0ee56afb0c7e0be810983b8c4894e0985b8aa8e843b701fa",
+      "depth_sha256": "4bae224b5c59bbe0568e718fa4804b6a147552bb4c8aea6a5f855dea50c36310",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_kidnapping_box",
+      "frame": "1548265490.26920",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_kidnapping_box/rgb/1548265490.26920.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_kidnapping_box/depth/1548265490.28256.png",
+      "pair_gap_s": 0.013360023498535156,
+      "fraction": 0.3333333333333333,
+      "ordinal": 363,
+      "population": 1091,
+      "max_depth": 10.0,
+      "id": "f14",
+      "rgb_sha256": "fae894c1f3e93cefe002258a1c9ba50d0b20858bbc1be2e11500551f1b576725",
+      "depth_sha256": "87d92427c09251076504ff9938326e8b9885cdacd4dd2da1f188364793a0a573",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "Bonn",
+      "group": "rgbd_bonn_kidnapping_box",
+      "frame": "1548265502.50315",
+      "rgb": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_kidnapping_box/rgb/1548265502.50315.png",
+      "depth": "/home/hyunsu/dataset_ssd/bonn/rgbd_bonn_dataset/rgbd_bonn_kidnapping_box/depth/1548265502.49542.png",
+      "pair_gap_s": 0.007730007171630859,
+      "fraction": 0.6666666666666666,
+      "ordinal": 727,
+      "population": 1091,
+      "max_depth": 10.0,
+      "id": "f15",
+      "rgb_sha256": "7d54f232bda18cc285fac01c18528e65efec027c8cfd38b9992dc4e229da8900",
+      "depth_sha256": "d77e29c1c17e3539befa941b66f16abfe16c06da58e32e77565a54902cecfe1d",
+      "native_size": [
+        480,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "AbandonedFactory",
+      "frame": "000232_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/AbandonedFactory/Data_easy/P002/image_lcam_front/000232_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/AbandonedFactory/Data_easy/P002/depth_lcam_front/000232_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.3333333333333333,
+      "ordinal": 232,
+      "population": 698,
+      "max_depth": 80.0,
+      "id": "f16",
+      "rgb_sha256": "3f95fbe4c7336abd7ac863b345885775aca9e42af0bdecc5c4c3f4d4c201a5d5",
+      "depth_sha256": "08e2f10b97c90e19a2c86e4a136ce092516efa41f64bdff130fdc7f0ac0aa3a4",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "AbandonedFactory",
+      "frame": "000465_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/AbandonedFactory/Data_easy/P002/image_lcam_front/000465_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/AbandonedFactory/Data_easy/P002/depth_lcam_front/000465_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.6666666666666666,
+      "ordinal": 465,
+      "population": 698,
+      "max_depth": 80.0,
+      "id": "f17",
+      "rgb_sha256": "43df41bd09f6de05b87b0a83c8fb75920f06559f26f005ab7f6f9d324f6444f2",
+      "depth_sha256": "7cda8522dc4bd96db4dd314249d455b415a8752a5744089cf7595221d59839a7",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "AmusementPark",
+      "frame": "000358_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/AmusementPark/Data_easy/P002/image_lcam_front/000358_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/AmusementPark/Data_easy/P002/depth_lcam_front/000358_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.3333333333333333,
+      "ordinal": 358,
+      "population": 1075,
+      "max_depth": 80.0,
+      "id": "f18",
+      "rgb_sha256": "80e068e850fd930db2b6151a193bb6dd10a11d0ced7c95aa1c9077cbc498d456",
+      "depth_sha256": "868323f01ee9300e37d4b76a3d6b85aed50025988451f7fc3ba7c36c932ed667",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "AmusementPark",
+      "frame": "000716_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/AmusementPark/Data_easy/P002/image_lcam_front/000716_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/AmusementPark/Data_easy/P002/depth_lcam_front/000716_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.6666666666666666,
+      "ordinal": 716,
+      "population": 1075,
+      "max_depth": 80.0,
+      "id": "f19",
+      "rgb_sha256": "2a2233377ffdec6a168cc7d1cca1da64c5f3ddd157818bb7bcabdd7d66e8d1ba",
+      "depth_sha256": "13cea3f4961afd45bb43e51aa0f585f23fd716cbeb3702bbd5686c732d9eb93e",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "Downtown",
+      "frame": "000869_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/Downtown/Data_easy/P002/image_lcam_front/000869_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/Downtown/Data_easy/P002/depth_lcam_front/000869_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.3333333333333333,
+      "ordinal": 869,
+      "population": 2609,
+      "max_depth": 80.0,
+      "id": "f20",
+      "rgb_sha256": "a19905dac0acbc00ae35db3004942ec8decd40062f59bec636b0412000548620",
+      "depth_sha256": "67ea88ec4a727fc15e5af4691d16a3d80caa607990f3bfa26bdee6c3269425dd",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "Downtown",
+      "frame": "001739_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/Downtown/Data_easy/P002/image_lcam_front/001739_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/Downtown/Data_easy/P002/depth_lcam_front/001739_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.6666666666666666,
+      "ordinal": 1739,
+      "population": 2609,
+      "max_depth": 80.0,
+      "id": "f21",
+      "rgb_sha256": "72bd37835aacc277d82a7d9cbf1158d8f8fdabeff953c8bb2e6f68894864f871",
+      "depth_sha256": "fe3fdf0ae22bb566b680fad43dad0c9010addd8f1a770ff9eb802e3083c892fb",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "Hospital",
+      "frame": "000602_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/Hospital/Data_easy/P002/image_lcam_front/000602_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/Hospital/Data_easy/P002/depth_lcam_front/000602_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.3333333333333333,
+      "ordinal": 602,
+      "population": 1807,
+      "max_depth": 80.0,
+      "id": "f22",
+      "rgb_sha256": "c0389e6e5d6d81dbbac59f6803274a8d18f216005c31b3a089aa8fa43b5c18a6",
+      "depth_sha256": "b75d066e8dbd1d65af080ca5d437fbb19a39f50969126ac867aeaab9ed84a15c",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "Hospital",
+      "frame": "001204_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/Hospital/Data_easy/P002/image_lcam_front/001204_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/Hospital/Data_easy/P002/depth_lcam_front/001204_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.6666666666666666,
+      "ordinal": 1204,
+      "population": 1807,
+      "max_depth": 80.0,
+      "id": "f23",
+      "rgb_sha256": "176fd0762428d719510d8d832411891a59a014f7a7651ab9335679b4031cb4fc",
+      "depth_sha256": "ee1eea0cbeac89547f577eb151c33528a048eebe2abaf5aecd905d93d75b7baa",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "JapaneseAlley",
+      "frame": "000318_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/JapaneseAlley/Data_easy/P002/image_lcam_front/000318_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/JapaneseAlley/Data_easy/P002/depth_lcam_front/000318_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.3333333333333333,
+      "ordinal": 318,
+      "population": 956,
+      "max_depth": 80.0,
+      "id": "f24",
+      "rgb_sha256": "33379184186a1f21d3f1f6aa4fe09811378c43cfbdc83b6c777b3d3a415f7933",
+      "depth_sha256": "4247028d97b0af0b5afddf9fe9bfb2048416e42f7ad102dd81acf420866a0482",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "JapaneseAlley",
+      "frame": "000637_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/JapaneseAlley/Data_easy/P002/image_lcam_front/000637_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/JapaneseAlley/Data_easy/P002/depth_lcam_front/000637_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.6666666666666666,
+      "ordinal": 637,
+      "population": 956,
+      "max_depth": 80.0,
+      "id": "f25",
+      "rgb_sha256": "29031cc6750e511a70d4a812e6485388eea68f04624fffe4f64b24bd51f3f272",
+      "depth_sha256": "994c279b519caf00b51c544db32eae1168b6fa379af5c1c386e62945f94d2a68",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "ModularNeighborhood",
+      "frame": "000860_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/ModularNeighborhood/Data_easy/P002/image_lcam_front/000860_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/ModularNeighborhood/Data_easy/P002/depth_lcam_front/000860_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.3333333333333333,
+      "ordinal": 860,
+      "population": 2581,
+      "max_depth": 80.0,
+      "id": "f26",
+      "rgb_sha256": "c478fd14b463b4791f5149f890780cd38fe1446b07a5c4c157849535d4375d9e",
+      "depth_sha256": "c5daf72cd50f8fbd12758b1d7c2b4baf094559f9975a6913530cb5336f4b1d85",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "ModularNeighborhood",
+      "frame": "001720_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/ModularNeighborhood/Data_easy/P002/image_lcam_front/001720_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/ModularNeighborhood/Data_easy/P002/depth_lcam_front/001720_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.6666666666666666,
+      "ordinal": 1720,
+      "population": 2581,
+      "max_depth": 80.0,
+      "id": "f27",
+      "rgb_sha256": "6ae2f56e6bf9eb4c51c1c253b1d0208102ef282ee5f7c2fd9a350afaf7a266dd",
+      "depth_sha256": "c05f5ca2459d1084b7ceec60911e20d8fbdd5841a4251b8c939a8423cef66653",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "Office",
+      "frame": "000251_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/Office/Data_easy/P002/image_lcam_front/000251_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/Office/Data_easy/P002/depth_lcam_front/000251_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.3333333333333333,
+      "ordinal": 251,
+      "population": 753,
+      "max_depth": 80.0,
+      "id": "f28",
+      "rgb_sha256": "feb25433b6942b38841c295ca68d2ee1eb553ca360d94733538100656abeb932",
+      "depth_sha256": "35392ecd0d8cc6c09358a3510d7d1fc39b5d2d40d0e96e5d72c781e6725fd4e5",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "Office",
+      "frame": "000501_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/Office/Data_easy/P002/image_lcam_front/000501_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/Office/Data_easy/P002/depth_lcam_front/000501_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.6666666666666666,
+      "ordinal": 501,
+      "population": 753,
+      "max_depth": 80.0,
+      "id": "f29",
+      "rgb_sha256": "ad391d626ffe9e9f41172eb6a1e14102bf37404d43688b2e27ab9378fea8b9cb",
+      "depth_sha256": "e8d87059996d1570f8e95c1eb4575ef6e34d56b1f78c0134c35b2945802a6c81",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "OldTownFall",
+      "frame": "000195_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/OldTownFall/Data_easy/P002/image_lcam_front/000195_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/OldTownFall/Data_easy/P002/depth_lcam_front/000195_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.3333333333333333,
+      "ordinal": 195,
+      "population": 586,
+      "max_depth": 80.0,
+      "id": "f30",
+      "rgb_sha256": "047a36e003d4e0de4f59aaa260af883bd47252d2ef91dfdddd3c5de60835677a",
+      "depth_sha256": "42bbb83e4e60f8828cb2376aacc951437aa390ba32fcbe2a7a91c0e737c7c3de",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "OldTownFall",
+      "frame": "000390_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/OldTownFall/Data_easy/P002/image_lcam_front/000390_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/OldTownFall/Data_easy/P002/depth_lcam_front/000390_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.6666666666666666,
+      "ordinal": 390,
+      "population": 586,
+      "max_depth": 80.0,
+      "id": "f31",
+      "rgb_sha256": "8035533e19341bfe33a894e81a697252103888c71380a86de37b4a7803d40595",
+      "depth_sha256": "7ceb1fc8689e33147a7e9b9719a520fee54cfc0fd53344bd0b2212dfc58c91b9",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "SeasonalForestSpring",
+      "frame": "000995_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/SeasonalForestSpring/Data_easy/P002/image_lcam_front/000995_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/SeasonalForestSpring/Data_easy/P002/depth_lcam_front/000995_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.3333333333333333,
+      "ordinal": 995,
+      "population": 2986,
+      "max_depth": 80.0,
+      "id": "f32",
+      "rgb_sha256": "9726d13840d07282a2b282d1ded6e25ace98970b8903dec82d8c8ec6ce26f2c4",
+      "depth_sha256": "b59a0ddb8f54777e3c7694688962cb950c48d1e7522fe71014145f87be717129",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "SeasonalForestSpring",
+      "frame": "001990_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/SeasonalForestSpring/Data_easy/P002/image_lcam_front/001990_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/SeasonalForestSpring/Data_easy/P002/depth_lcam_front/001990_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.6666666666666666,
+      "ordinal": 1990,
+      "population": 2986,
+      "max_depth": 80.0,
+      "id": "f33",
+      "rgb_sha256": "befda87ab543b1624e0022dd993272c557589decfd3f952e4762e4cb73bced1d",
+      "depth_sha256": "d716e26fd68e6582284cbae82ab6712c4d31998d5a017c9d0641bee434a78c79",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "Supermarket",
+      "frame": "000288_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/Supermarket/Data_easy/P002/image_lcam_front/000288_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/Supermarket/Data_easy/P002/depth_lcam_front/000288_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.3333333333333333,
+      "ordinal": 288,
+      "population": 865,
+      "max_depth": 80.0,
+      "id": "f34",
+      "rgb_sha256": "1dac86cf05749cf0b3efaf1b42ce01433329df6e747b1c0afe66f9d8c648c10b",
+      "depth_sha256": "8bdf8038ebfeb7df9fc98865d856baffd44f4efdf077ffd73373471f0aa119b4",
+      "native_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "dataset": "TartanAirV2",
+      "group": "Supermarket",
+      "frame": "000576_lcam_front",
+      "rgb": "/home/hyunsu/dataset_ssd/tartanair_v2/Supermarket/Data_easy/P002/image_lcam_front/000576_lcam_front.png",
+      "depth": "/home/hyunsu/dataset_ssd/tartanair_v2/Supermarket/Data_easy/P002/depth_lcam_front/000576_lcam_front_depth.png",
+      "pair_gap_s": 0.0,
+      "fraction": 0.6666666666666666,
+      "ordinal": 576,
+      "population": 865,
+      "max_depth": 80.0,
+      "id": "f35",
+      "rgb_sha256": "0c2e3d18b4e815b044ff956229882cff28c200834a8da4111fba0d6cd315339e",
+      "depth_sha256": "7dc955eed409c9d0d166787eb4408009b51bb76b50a7bd309d25863f7fc2fb97",
+      "native_size": [
+        640,
+        640
+      ]
+    }
+  ],
+  "sigma_r": [
+    0.2,
+    0.4
+  ],
+  "S": [
+    8,
+    32,
+    64
+  ],
+  "sources": {
+    "scripts/evaluate_math_v3_5.py": "af1350328622d67910b0dfb981e375229258a8744bbbd6e37102a9a1c663dc5d",
+    "work_dirs/mdpi_math_v3_5/PLAN.md": "e041cbca79997e03cd09c7d9627440ca325eda2e366590a3775ce67f496d4250",
+    "sokkanaem/range_cache_filter.py": "9dcf46010aa48ee6eb6c780910740dbb0f80b058da029b6c1ce1064cddd40185"
+  },
+  "official_depth_decoder_matches_OpenCV": true,
+  "timing": {
+    "frames": [
+      "f00",
+      "f16"
+    ],
+    "warmup": 2,
+    "repeats": 7,
+    "threads": 1
+  },
+  "bootstrap": {
+    "resamples": 3000,
+    "seed": 20261009
+  }
+}

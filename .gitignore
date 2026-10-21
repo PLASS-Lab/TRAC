@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+out/
+# Dataset-derived evidence arrays: not distributed, rebuilt by `python -m tworead.cases build`
+paper/mdpi_math_v4/supplementary/evidence_v3_2/sampled_families.npz
+paper/mdpi_math_v4/supplementary/evidence_v3_2/reporting_v1_archive/sampled_families.npz
+paper/mdpi_math_v4/supplementary/evidence_v3_4/families.npz
+paper/mdpi_math_v4/supplementary/evidence_v3_5/arrays/*_inputs.npz
+paper/mdpi_math_v4/supplementary/evidence_v3_5/arrays/*_qualitative.npz

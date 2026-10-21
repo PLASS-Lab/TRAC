@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "checks": {
+    "v4_all_files_preserved": true,
+    "all_14_retained_main_formal_statements_identical": true,
+    "auxiliary_formal_statements_identical": true,
+    "all_7_retained_lemma_proofs_identical": true,
+    "single_log_proof_steps_identical": true,
+    "squared_log_display_math_preserved": true,
+    "all_3_retained_result_tables_identical": true,
+    "all_7_retained_image_assets_identical": true,
+    "source_references_resolve": true,
+    "exactly_6_selected_supplement_sections": true,
+    "historical_panels_not_repackaged": true,
+    "negative_results_retained": true,
+    "manuscript_clean_references_and_layout": true,
+    "manuscript_fonts_embedded": true,
+    "manuscript_unique_labels": true,
+    "supplementary_clean_references_and_layout": true,
+    "supplementary_fonts_embedded": true,
+    "supplementary_unique_labels": true,
+    "both_documents_shortened": true,
+    "v4_2_all_files_preserved": true,
+    "only_expected_tex_changed": true,
+    "manuscript_all_formal_statements_proofs_and_display_math_preserved": true,
+    "manuscript_all_citations_resolve_and_no_unused_references": true,
+    "manuscript_references_in_first_citation_order": true,
+    "manuscript_kodak_source_rendered": true,
+    "supplementary_all_formal_statements_proofs_and_display_math_preserved": true,
+    "supplementary_all_citations_resolve_and_no_unused_references": true,
+    "supplementary_references_in_first_citation_order": true,
+    "supplementary_kodak_source_rendered": true,
+    "v4_2_all_result_tables_and_numerical_summaries_identical": true,
+    "lab_citations_retained_as_application_context": true,
+    "funding_preserved": true,
+    "unrelated_existence_reference_removed": true,
+    "broad_priority_and_relaxation_claims_revised": true
+  },
+  "pages": {
+    "manuscript": 21,
+    "supplementary": 6
+  },
+  "counts": {
+    "manuscript": {
+      "figures": 10,
+      "tables": 3
+    },
+    "supplementary": {
+      "figures": 0,
+      "tables": 1
+    }
+  },
+  "preserved_v4_files": 1636,
+  "scope": "V4.3 citation and prose revision of V4.2. All formal statements, proofs, displayed mathematics, numerical summaries, tables and image assets preserved. No new experiments or inference.",
+  "changed_tex": [
+    "fresh_diagnostics.tex",
+    "manuscript.tex",
+    "related_formulations.tex",
+    "selected_diagnostics.tex",
+    "supplementary.tex"
+  ]
+}

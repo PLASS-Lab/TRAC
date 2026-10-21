@@ -1,0 +1,18 @@
+{
+  "version": "v3.1",
+  "date": "2026-10-08",
+  "constant_checks_passed": 44,
+  "geometry_checks_passed": 7,
+  "main_equations": 26,
+  "supplementary_equations": [
+    "S1"
+  ],
+  "v3_baseline_preserved": true,
+  "experimental_evidence_preserved": true,
+  "theorem_statements_preserved": true,
+  "pdf_builds_clean": true,
+  "manuscript_sha256": "bb55c218fc5d8b1969b2fb1a7b35a9da4d1ba308f6e14877366f606e747f230d",
+  "manuscript_pdf_sha256": "3ca940458b31f2d412eeb1fba65b3872796ffa1cf58cc4cf88973928bbb3c1dc",
+  "supplementary_pdf_sha256": "d0b52d10b020359d5bf6286d01ae05c6bbca956d22b5698e92ac9ea2666f64f1",
+  "limitation": "Internal analytic review and finite checks; not formal or independent specialist verification."
+}

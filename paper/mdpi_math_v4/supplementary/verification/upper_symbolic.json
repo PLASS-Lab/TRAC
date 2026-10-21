@@ -1,0 +1,18 @@
+{
+  "role": "exact symbolic check of algebraic identities used in continuous upper proof",
+  "not_certified": "arbitrary-cache lower bound; real-interval interpolation lemma; finite-precision model",
+  "keys": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "p_i": "x^i/(1+x+x^2+x^3), x=exp(t)>0",
+  "verified_second_derivative": "d_t^2 p_i = p_i((i-mu)^2-Var)",
+  "variance_chain": "Var=E[i^2]-mu^2 <= 3mu-mu^2 <= 9/4, since i(3-i)>=0 and (mu-3/2)^2>=0",
+  "l1_second_derivative_bound": "sum_i |d_t^2 p_i| <= 2Var <= 9/2",
+  "interpolation_upper": "h^2/8 * (9/2) = 9(log 2)^2/[4(S-1)^2]",
+  "S4_upper_float": 0.12011325347955036,
+  "sympy": "1.14.0",
+  "script_sha256": "26166307aff46da444ab40dab86714dd746b0fdc99db43721f52f6894799d42a"
+}

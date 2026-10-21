@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "arithmetic": "Fraction",
+  "pair_checks": 688,
+  "four_row_determinant_checks": 13472,
+  "scope": "Refutes proposed multiplicity routes, not the C2 theorem."
+}

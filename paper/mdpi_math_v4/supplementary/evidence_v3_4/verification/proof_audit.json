@@ -1,0 +1,43 @@
+{
+  "status": "internal_definition_level_review_and_exact_finite_attacks",
+  "formal_verification": false,
+  "independent_specialist_review": false,
+  "reviewed_sources": {
+    "manuscript.tex": "0a9b29d5e717dc4f3f46207ef0f3a999a97d0485d0bfd8460901ddf425736af3",
+    "multiscale_circle_proof.tex": "f71d806cbc1b638035e754bd18d3ccbd12c88dc19b2c1f3ad0afd62ac1eb62ca",
+    "PROOF_AUDIT_V3_4.md": "afd24d1141a592314cc325f0e6646c30b6f018e38b75faff6552d4e1bf143468"
+  },
+  "checks": [
+    {
+      "name": "fixed_center_clipping_both_normalization_branches",
+      "passed": true,
+      "arithmetic": "exact_rational_or_integer",
+      "cases": 38226,
+      "clipped_cases": 8832
+    },
+    {
+      "name": "closed_windows_half_open_bins_index_charge",
+      "passed": true,
+      "arithmetic": "exact_rational_or_integer",
+      "cases": 1950,
+      "max_bins_per_center": 2,
+      "max_total_charge_per_atom": "4"
+    },
+    {
+      "name": "irredundant_cross_scale_union_and_repeated_center_measure",
+      "passed": true,
+      "arithmetic": "exact_rational_or_integer",
+      "exhaustive_families": 12950,
+      "counting_measure_cases": 12950,
+      "max_multiplicity": 2
+    },
+    {
+      "name": "residual_union_is_only_an_upper_cover",
+      "passed": true,
+      "arithmetic": "exact_rational_or_integer",
+      "residual": "3/1450",
+      "exact_l1_plane_distance": "3/1160"
+    }
+  ],
+  "failures": []
+}

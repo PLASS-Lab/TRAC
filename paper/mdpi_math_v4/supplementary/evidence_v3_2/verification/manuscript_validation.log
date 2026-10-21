@@ -1,0 +1,40 @@
+PASS abstract <= 200 words
+PASS \keyword present
+PASS \MSC present
+PASS \authorcontributions present
+PASS \funding present
+PASS \dataavailability present
+PASS \conflictsofinterest present
+PASS \institutionalreview present
+PASS \informedconsent present
+PASS section flow theory->verification->implementation->conclusions
+PASS exact audit 17/17
+PASS shared_incidence passed
+PASS pair_budget passed
+PASS plan_counterexamples passed
+PASS multiscale_diagnostic passed
+PASS relaxation_separation passed
+PASS two-read grid S=4 printed
+PASS two-read grid S=8 printed
+PASS two-read grid S=16 printed
+PASS two-read grid S=32 printed
+PASS two-read grid S=64 printed
+PASS two-read grid S=128 printed
+PASS two-read slope -2.05
+PASS relaxation grid S=4 printed
+PASS relaxation grid S=8 printed
+PASS relaxation grid S=16 printed
+PASS relaxation grid S=32 printed
+PASS relaxation grid S=64 printed
+PASS relaxation slope -4.07
+PASS relaxation slope in M -1.98
+PASS V1 total checks
+PASS DIODE numbers
+PASS every reference cited
+PASS no undefined references/citations
+PASS no overfull box above 1pt
+author inputs remaining: 3
+  - MDPI supplementary link
+  - Authors: state funding, or ``This research received no external funding.''
+  - repository URL or DOI
+ALL CHECKS PASSED

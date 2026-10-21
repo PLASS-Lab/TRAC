@@ -1,0 +1,15 @@
+[project]
+name = "tworead"
+version = "1.0.0"
+description = "Two-read linear caches for softmax attention: code for the manuscript claims"
+license = "MIT"
+license-files = ["LICENSE", "LICENSE-DATA"]
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "torch", "sympy", "mpmath", "pillow"]
+
+[project.optional-dependencies]
+cases = ["h5py"]
+inference = ["transformers", "opencv-python"]
+
+[tool.setuptools.packages.find]
+include = ["tworead*"]

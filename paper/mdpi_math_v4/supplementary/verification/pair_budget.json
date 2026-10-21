@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "arithmetic": "Fraction",
+  "finite_norming_certificates": 960,
+  "lagrange_reconstructions": 960,
+  "projected_row_cases": {
+    "zero": 320,
+    "dependent": 320,
+    "general": 320
+  },
+  "incidence_constant_cases": 392,
+  "path_graph_cases": 99,
+  "scope": "Finite exact diagnostics; continuous statements rely on manuscript proofs."
+}

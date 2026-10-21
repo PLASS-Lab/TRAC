@@ -1,0 +1,1793 @@
+{
+  "runtime": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "python": "3.11.15",
+    "platform": "Linux-6.8.0-142-generic-x86_64-with-glibc2.39",
+    "thread_env": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "CPU": "13th Gen Intel(R) Core(TM) i9-13900KF",
+    "precision": "FP64"
+  },
+  "records": [
+    {
+      "frame": "f00",
+      "dataset": "Bonn",
+      "model": "da2_small",
+      "shape": [
+        480,
+        640
+      ],
+      "sigma_r": 0.2,
+      "S": 8,
+      "GPA_N": 16,
+      "uniform_scalar_filterings": 16,
+      "GPA_scalar_filterings": 32,
+      "logical_snapshot_bytes": 19660800,
+      "durations_ms": {
+        "direct": [
+          283.004498,
+          280.40053,
+          280.249965,
+          279.068217,
+          282.807889,
+          279.501061,
+          278.280768
+        ],
+        "uniform": [
+          53.692314,
+          54.186893,
+          54.790985,
+          53.479209,
+          54.21336,
+          54.976194,
+          53.365289
+        ],
+        "GPA": [
+          88.463123,
+          93.400015,
+          93.383391,
+          87.644759,
+          93.961603,
+          93.361189,
+          87.336627
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 50.468157,
+          "readout_ms": 2.56829
+        },
+        {
+          "construction_ms": 51.17372,
+          "readout_ms": 2.555391
+        },
+        {
+          "construction_ms": 49.228544,
+          "readout_ms": 4.643651
+        },
+        {
+          "construction_ms": 50.227817,
+          "readout_ms": 2.610319
+        },
+        {
+          "construction_ms": 51.2134,
+          "readout_ms": 2.552299
+        },
+        {
+          "construction_ms": 49.315094,
+          "readout_ms": 4.651051
+        },
+        {
+          "construction_ms": 50.160555,
+          "readout_ms": 2.554098
+        }
+      ]
+    },
+    {
+      "frame": "f00",
+      "dataset": "Bonn",
+      "model": "da2_small",
+      "shape": [
+        480,
+        640
+      ],
+      "sigma_r": 0.2,
+      "S": 32,
+      "GPA_N": 18,
+      "uniform_scalar_filterings": 64,
+      "GPA_scalar_filterings": 36,
+      "logical_snapshot_bytes": 78643200,
+      "durations_ms": {
+        "direct": [
+          279.00338,
+          285.81998,
+          284.14795,
+          282.042155,
+          282.074505,
+          281.779558,
+          277.889634
+        ],
+        "uniform": [
+          211.058322,
+          217.065905,
+          214.681797,
+          216.554171,
+          216.288489,
+          214.951806,
+          210.506474
+        ],
+        "GPA": [
+          99.6164,
+          101.085876,
+          101.147583,
+          100.060081,
+          101.104332,
+          100.801295,
+          99.718659
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 206.597161,
+          "readout_ms": 4.319325
+        },
+        {
+          "construction_ms": 212.556533,
+          "readout_ms": 4.35613
+        },
+        {
+          "construction_ms": 210.340537,
+          "readout_ms": 4.197361
+        },
+        {
+          "construction_ms": 212.028356,
+          "readout_ms": 4.385056
+        },
+        {
+          "construction_ms": 211.808411,
+          "readout_ms": 4.337483
+        },
+        {
+          "construction_ms": 210.616438,
+          "readout_ms": 4.192054
+        },
+        {
+          "construction_ms": 206.117519,
+          "readout_ms": 4.246278
+        }
+      ]
+    },
+    {
+      "frame": "f00",
+      "dataset": "Bonn",
+      "model": "da2_small",
+      "shape": [
+        480,
+        640
+      ],
+      "sigma_r": 0.2,
+      "S": 64,
+      "GPA_N": 20,
+      "uniform_scalar_filterings": 128,
+      "GPA_scalar_filterings": 40,
+      "logical_snapshot_bytes": 157286400,
+      "durations_ms": {
+        "direct": [
+          278.533459,
+          283.690956,
+          281.140791,
+          278.411473,
+          284.391567,
+          284.898718,
+          279.616152
+        ],
+        "uniform": [
+          421.482034,
+          430.298665,
+          426.506072,
+          421.487312,
+          427.755752,
+          426.16304,
+          428.140254
+        ],
+        "GPA": [
+          110.163569,
+          115.129856,
+          114.414428,
+          108.633275,
+          114.759707,
+          118.36359,
+          110.461015
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 415.783671,
+          "readout_ms": 5.428107
+        },
+        {
+          "construction_ms": 424.589386,
+          "readout_ms": 5.439544
+        },
+        {
+          "construction_ms": 420.84813,
+          "readout_ms": 5.387479
+        },
+        {
+          "construction_ms": 415.841655,
+          "readout_ms": 5.368936
+        },
+        {
+          "construction_ms": 422.048638,
+          "readout_ms": 5.443656
+        },
+        {
+          "construction_ms": 420.468801,
+          "readout_ms": 5.418156
+        },
+        {
+          "construction_ms": 422.344205,
+          "readout_ms": 5.500461
+        }
+      ]
+    },
+    {
+      "frame": "f00",
+      "dataset": "Bonn",
+      "model": "da2_small",
+      "shape": [
+        480,
+        640
+      ],
+      "sigma_r": 0.4,
+      "S": 8,
+      "GPA_N": 9,
+      "uniform_scalar_filterings": 16,
+      "GPA_scalar_filterings": 18,
+      "logical_snapshot_bytes": 19660800,
+      "durations_ms": {
+        "direct": [
+          286.565341,
+          286.228649,
+          281.65579,
+          280.185107,
+          283.664995,
+          279.936701,
+          278.386092
+        ],
+        "uniform": [
+          53.883774,
+          53.974909,
+          54.364659,
+          54.7068,
+          54.552949,
+          53.534231,
+          53.533045
+        ],
+        "GPA": [
+          50.087529,
+          55.26963,
+          51.251316,
+          49.651897,
+          54.583743,
+          53.429892,
+          49.749144
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 50.845115,
+          "readout_ms": 2.568332
+        },
+        {
+          "construction_ms": 50.960925,
+          "readout_ms": 2.548173
+        },
+        {
+          "construction_ms": 51.844437,
+          "readout_ms": 2.513819
+        },
+        {
+          "construction_ms": 51.754084,
+          "readout_ms": 2.508668
+        },
+        {
+          "construction_ms": 51.54478,
+          "readout_ms": 2.55709
+        },
+        {
+          "construction_ms": 51.020217,
+          "readout_ms": 2.507641
+        },
+        {
+          "construction_ms": 50.54597,
+          "readout_ms": 2.55671
+        }
+      ]
+    },
+    {
+      "frame": "f00",
+      "dataset": "Bonn",
+      "model": "da2_small",
+      "shape": [
+        480,
+        640
+      ],
+      "sigma_r": 0.4,
+      "S": 32,
+      "GPA_N": 10,
+      "uniform_scalar_filterings": 64,
+      "GPA_scalar_filterings": 20,
+      "logical_snapshot_bytes": 78643200,
+      "durations_ms": {
+        "direct": [
+          278.886074,
+          280.815107,
+          280.243323,
+          277.249743,
+          282.660273,
+          281.625845,
+          277.842932
+        ],
+        "uniform": [
+          210.777045,
+          216.321956,
+          215.700563,
+          210.965653,
+          216.333689,
+          214.910375,
+          210.262757
+        ],
+        "GPA": [
+          57.575338,
+          58.133758,
+          58.051716,
+          55.583851,
+          58.291429,
+          57.96653,
+          55.859636
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 206.305141,
+          "readout_ms": 4.328472
+        },
+        {
+          "construction_ms": 211.834566,
+          "readout_ms": 4.343768
+        },
+        {
+          "construction_ms": 211.302534,
+          "readout_ms": 4.254053
+        },
+        {
+          "construction_ms": 206.566951,
+          "readout_ms": 4.257417
+        },
+        {
+          "construction_ms": 211.842281,
+          "readout_ms": 4.349735
+        },
+        {
+          "construction_ms": 210.494492,
+          "readout_ms": 4.274054
+        },
+        {
+          "construction_ms": 205.820862,
+          "readout_ms": 4.292173
+        }
+      ]
+    },
+    {
+      "frame": "f00",
+      "dataset": "Bonn",
+      "model": "da2_small",
+      "shape": [
+        480,
+        640
+      ],
+      "sigma_r": 0.4,
+      "S": 64,
+      "GPA_N": 11,
+      "uniform_scalar_filterings": 128,
+      "GPA_scalar_filterings": 22,
+      "logical_snapshot_bytes": 157286400,
+      "durations_ms": {
+        "direct": [
+          279.807882,
+          285.602782,
+          279.779906,
+          283.011865,
+          283.597019,
+          280.052706,
+          281.144085
+        ],
+        "uniform": [
+          420.166128,
+          426.686998,
+          424.797711,
+          423.555662,
+          427.986114,
+          425.616258,
+          422.118835
+        ],
+        "GPA": [
+          60.803744,
+          65.923606,
+          66.356256,
+          61.000283,
+          66.152859,
+          66.661927,
+          61.509231
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 414.465317,
+          "readout_ms": 5.438729
+        },
+        {
+          "construction_ms": 420.981611,
+          "readout_ms": 5.441473
+        },
+        {
+          "construction_ms": 419.103831,
+          "readout_ms": 5.435926
+        },
+        {
+          "construction_ms": 417.799193,
+          "readout_ms": 5.493494
+        },
+        {
+          "construction_ms": 422.23673,
+          "readout_ms": 5.482877
+        },
+        {
+          "construction_ms": 419.916703,
+          "readout_ms": 5.437113
+        },
+        {
+          "construction_ms": 416.367755,
+          "readout_ms": 5.453607
+        }
+      ]
+    },
+    {
+      "frame": "f00",
+      "dataset": "Bonn",
+      "model": "zoedepth",
+      "shape": [
+        480,
+        640
+      ],
+      "sigma_r": 0.2,
+      "S": 8,
+      "GPA_N": 16,
+      "uniform_scalar_filterings": 16,
+      "GPA_scalar_filterings": 32,
+      "logical_snapshot_bytes": 19660800,
+      "durations_ms": {
+        "direct": [
+          280.147893,
+          281.804547,
+          278.481942,
+          279.498904,
+          282.560707,
+          278.955726,
+          278.980396
+        ],
+        "uniform": [
+          53.357113,
+          53.692319,
+          54.656548,
+          53.444236,
+          54.049059,
+          54.652666,
+          53.526386
+        ],
+        "GPA": [
+          87.537388,
+          93.634909,
+          93.171981,
+          87.345907,
+          93.749539,
+          93.260436,
+          87.846158
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 50.111376,
+          "readout_ms": 2.581005
+        },
+        {
+          "construction_ms": 50.681014,
+          "readout_ms": 2.561953
+        },
+        {
+          "construction_ms": 49.047883,
+          "readout_ms": 4.699379
+        },
+        {
+          "construction_ms": 50.185476,
+          "readout_ms": 2.608439
+        },
+        {
+          "construction_ms": 50.984631,
+          "readout_ms": 2.608344
+        },
+        {
+          "construction_ms": 49.030384,
+          "readout_ms": 4.643797
+        },
+        {
+          "construction_ms": 50.286623,
+          "readout_ms": 2.595395
+        }
+      ]
+    },
+    {
+      "frame": "f00",
+      "dataset": "Bonn",
+      "model": "zoedepth",
+      "shape": [
+        480,
+        640
+      ],
+      "sigma_r": 0.2,
+      "S": 32,
+      "GPA_N": 18,
+      "uniform_scalar_filterings": 64,
+      "GPA_scalar_filterings": 36,
+      "logical_snapshot_bytes": 78643200,
+      "durations_ms": {
+        "direct": [
+          277.051652,
+          277.282826,
+          281.102373,
+          277.977387,
+          276.601481,
+          279.296903,
+          277.110791
+        ],
+        "uniform": [
+          210.525346,
+          216.541105,
+          214.802455,
+          210.581101,
+          216.393932,
+          215.393144,
+          211.717482
+        ],
+        "GPA": [
+          97.596458,
+          100.929652,
+          100.864565,
+          97.031597,
+          100.931851,
+          101.69421,
+          97.749704
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 206.127162,
+          "readout_ms": 4.253584
+        },
+        {
+          "construction_ms": 212.194328,
+          "readout_ms": 4.206126
+        },
+        {
+          "construction_ms": 210.401775,
+          "readout_ms": 4.258052
+        },
+        {
+          "construction_ms": 206.13622,
+          "readout_ms": 4.302601
+        },
+        {
+          "construction_ms": 211.948333,
+          "readout_ms": 4.304356
+        },
+        {
+          "construction_ms": 210.914126,
+          "readout_ms": 4.337489
+        },
+        {
+          "construction_ms": 207.277576,
+          "readout_ms": 4.294207
+        }
+      ]
+    },
+    {
+      "frame": "f00",
+      "dataset": "Bonn",
+      "model": "zoedepth",
+      "shape": [
+        480,
+        640
+      ],
+      "sigma_r": 0.2,
+      "S": 64,
+      "GPA_N": 20,
+      "uniform_scalar_filterings": 128,
+      "GPA_scalar_filterings": 40,
+      "logical_snapshot_bytes": 157286400,
+      "durations_ms": {
+        "direct": [
+          277.043014,
+          278.218337,
+          279.065524,
+          277.448488,
+          280.022801,
+          280.200882,
+          277.241434
+        ],
+        "uniform": [
+          420.534606,
+          426.436243,
+          425.120641,
+          421.757035,
+          426.610433,
+          425.344205,
+          421.349405
+        ],
+        "GPA": [
+          108.27652,
+          115.155124,
+          115.687113,
+          109.177001,
+          115.376656,
+          114.62289,
+          107.541741
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 414.84694,
+          "readout_ms": 5.417566
+        },
+        {
+          "construction_ms": 420.794115,
+          "readout_ms": 5.37624
+        },
+        {
+          "construction_ms": 419.490832,
+          "readout_ms": 5.366701
+        },
+        {
+          "construction_ms": 416.084438,
+          "readout_ms": 5.413033
+        },
+        {
+          "construction_ms": 420.951019,
+          "readout_ms": 5.39235
+        },
+        {
+          "construction_ms": 419.725885,
+          "readout_ms": 5.359858
+        },
+        {
+          "construction_ms": 415.674734,
+          "readout_ms": 5.411177
+        }
+      ]
+    },
+    {
+      "frame": "f00",
+      "dataset": "Bonn",
+      "model": "zoedepth",
+      "shape": [
+        480,
+        640
+      ],
+      "sigma_r": 0.4,
+      "S": 8,
+      "GPA_N": 9,
+      "uniform_scalar_filterings": 16,
+      "GPA_scalar_filterings": 18,
+      "logical_snapshot_bytes": 19660800,
+      "durations_ms": {
+        "direct": [
+          279.655499,
+          283.481353,
+          279.951754,
+          279.597512,
+          282.503477,
+          282.361863,
+          279.056235
+        ],
+        "uniform": [
+          57.384395,
+          54.069959,
+          52.306046,
+          53.710365,
+          54.276801,
+          53.055906,
+          53.19073
+        ],
+        "GPA": [
+          49.754009,
+          54.648525,
+          50.948497,
+          49.792458,
+          54.628325,
+          50.808495,
+          49.561783
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 54.304912,
+          "readout_ms": 2.628025
+        },
+        {
+          "construction_ms": 50.976874,
+          "readout_ms": 2.604576
+        },
+        {
+          "construction_ms": 49.708774,
+          "readout_ms": 2.591916
+        },
+        {
+          "construction_ms": 50.642576,
+          "readout_ms": 2.598039
+        },
+        {
+          "construction_ms": 51.212716,
+          "readout_ms": 2.575019
+        },
+        {
+          "construction_ms": 50.455465,
+          "readout_ms": 2.594384
+        },
+        {
+          "construction_ms": 50.163577,
+          "readout_ms": 2.603324
+        }
+      ]
+    },
+    {
+      "frame": "f00",
+      "dataset": "Bonn",
+      "model": "zoedepth",
+      "shape": [
+        480,
+        640
+      ],
+      "sigma_r": 0.4,
+      "S": 32,
+      "GPA_N": 10,
+      "uniform_scalar_filterings": 64,
+      "GPA_scalar_filterings": 20,
+      "logical_snapshot_bytes": 78643200,
+      "durations_ms": {
+        "direct": [
+          277.564434,
+          275.533382,
+          281.738616,
+          276.571842,
+          277.332755,
+          283.542553,
+          277.594892
+        ],
+        "uniform": [
+          210.539698,
+          216.989508,
+          215.616047,
+          210.4332,
+          216.086664,
+          214.519733,
+          210.837659
+        ],
+        "GPA": [
+          57.170935,
+          58.082596,
+          58.164719,
+          54.868522,
+          58.008664,
+          62.245275,
+          55.215682
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 206.182479,
+          "readout_ms": 4.213785
+        },
+        {
+          "construction_ms": 212.590692,
+          "readout_ms": 4.255577
+        },
+        {
+          "construction_ms": 211.212632,
+          "readout_ms": 4.25921
+        },
+        {
+          "construction_ms": 205.979374,
+          "readout_ms": 4.312937
+        },
+        {
+          "construction_ms": 211.682118,
+          "readout_ms": 4.262089
+        },
+        {
+          "construction_ms": 210.132293,
+          "readout_ms": 4.24797
+        },
+        {
+          "construction_ms": 206.47377,
+          "readout_ms": 4.221552
+        }
+      ]
+    },
+    {
+      "frame": "f00",
+      "dataset": "Bonn",
+      "model": "zoedepth",
+      "shape": [
+        480,
+        640
+      ],
+      "sigma_r": 0.4,
+      "S": 64,
+      "GPA_N": 11,
+      "uniform_scalar_filterings": 128,
+      "GPA_scalar_filterings": 22,
+      "logical_snapshot_bytes": 157286400,
+      "durations_ms": {
+        "direct": [
+          278.109537,
+          280.164342,
+          279.445974,
+          280.292137,
+          279.885993,
+          280.636198,
+          279.986963
+        ],
+        "uniform": [
+          419.770666,
+          426.857164,
+          425.598388,
+          425.221626,
+          426.414443,
+          424.981563,
+          421.440298
+        ],
+        "GPA": [
+          60.194661,
+          66.158628,
+          66.18095,
+          60.406635,
+          66.15511,
+          66.302839,
+          61.104628
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 414.092727,
+          "readout_ms": 5.414346
+        },
+        {
+          "construction_ms": 421.212413,
+          "readout_ms": 5.377985
+        },
+        {
+          "construction_ms": 419.863215,
+          "readout_ms": 5.454121
+        },
+        {
+          "construction_ms": 419.587723,
+          "readout_ms": 5.365302
+        },
+        {
+          "construction_ms": 420.657519,
+          "readout_ms": 5.495085
+        },
+        {
+          "construction_ms": 419.294696,
+          "readout_ms": 5.416043
+        },
+        {
+          "construction_ms": 415.792725,
+          "readout_ms": 5.389216
+        }
+      ]
+    },
+    {
+      "frame": "f16",
+      "dataset": "TartanAirV2",
+      "model": "da2_small",
+      "shape": [
+        640,
+        640
+      ],
+      "sigma_r": 0.2,
+      "S": 8,
+      "GPA_N": 16,
+      "uniform_scalar_filterings": 16,
+      "GPA_scalar_filterings": 32,
+      "logical_snapshot_bytes": 26214400,
+      "durations_ms": {
+        "direct": [
+          383.551757,
+          384.12439,
+          376.166658,
+          383.022159,
+          383.90537,
+          375.912254,
+          382.252337
+        ],
+        "uniform": [
+          74.829791,
+          77.719956,
+          75.331178,
+          75.048412,
+          77.096281,
+          75.192496,
+          74.786786
+        ],
+        "GPA": [
+          124.927734,
+          131.574956,
+          132.626394,
+          124.996584,
+          131.728453,
+          131.616711,
+          125.323089
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 70.068435,
+          "readout_ms": 3.773896
+        },
+        {
+          "construction_ms": 73.157463,
+          "readout_ms": 3.764365
+        },
+        {
+          "construction_ms": 70.675125,
+          "readout_ms": 3.777
+        },
+        {
+          "construction_ms": 70.427352,
+          "readout_ms": 3.715881
+        },
+        {
+          "construction_ms": 72.546978,
+          "readout_ms": 3.751561
+        },
+        {
+          "construction_ms": 70.576139,
+          "readout_ms": 3.731936
+        },
+        {
+          "construction_ms": 70.144192,
+          "readout_ms": 3.761345
+        }
+      ]
+    },
+    {
+      "frame": "f16",
+      "dataset": "TartanAirV2",
+      "model": "da2_small",
+      "shape": [
+        640,
+        640
+      ],
+      "sigma_r": 0.2,
+      "S": 32,
+      "GPA_N": 18,
+      "uniform_scalar_filterings": 64,
+      "GPA_scalar_filterings": 36,
+      "logical_snapshot_bytes": 104857600,
+      "durations_ms": {
+        "direct": [
+          381.898623,
+          386.241406,
+          375.504874,
+          381.100766,
+          388.823549,
+          377.114906,
+          382.373067
+        ],
+        "uniform": [
+          295.653517,
+          316.213549,
+          300.163865,
+          294.127263,
+          301.88482,
+          300.333561,
+          294.623917
+        ],
+        "GPA": [
+          142.755727,
+          147.434741,
+          145.016574,
+          142.087539,
+          145.614052,
+          144.548974,
+          142.685476
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 288.58407,
+          "readout_ms": 6.842006
+        },
+        {
+          "construction_ms": 309.353411,
+          "readout_ms": 6.661421
+        },
+        {
+          "construction_ms": 293.121174,
+          "readout_ms": 6.844883
+        },
+        {
+          "construction_ms": 287.185301,
+          "readout_ms": 6.739652
+        },
+        {
+          "construction_ms": 294.596552,
+          "readout_ms": 7.094535
+        },
+        {
+          "construction_ms": 293.362444,
+          "readout_ms": 6.769928
+        },
+        {
+          "construction_ms": 287.507198,
+          "readout_ms": 6.886666
+        }
+      ]
+    },
+    {
+      "frame": "f16",
+      "dataset": "TartanAirV2",
+      "model": "da2_small",
+      "shape": [
+        640,
+        640
+      ],
+      "sigma_r": 0.2,
+      "S": 64,
+      "GPA_N": 20,
+      "uniform_scalar_filterings": 128,
+      "GPA_scalar_filterings": 40,
+      "logical_snapshot_bytes": 209715200,
+      "durations_ms": {
+        "direct": [
+          381.480264,
+          389.230727,
+          409.617311,
+          392.696846,
+          388.033328,
+          376.644657,
+          381.733065
+        ],
+        "uniform": [
+          589.140709,
+          596.536611,
+          596.632902,
+          589.211827,
+          596.197977,
+          595.396509,
+          596.94018
+        ],
+        "GPA": [
+          157.204479,
+          163.283064,
+          164.586713,
+          169.403118,
+          164.439918,
+          167.532276,
+          158.798157
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 580.261984,
+          "readout_ms": 8.543376
+        },
+        {
+          "construction_ms": 587.578949,
+          "readout_ms": 8.635132
+        },
+        {
+          "construction_ms": 587.597811,
+          "readout_ms": 8.707098
+        },
+        {
+          "construction_ms": 580.260899,
+          "readout_ms": 8.626591
+        },
+        {
+          "construction_ms": 587.31678,
+          "readout_ms": 8.533438
+        },
+        {
+          "construction_ms": 586.56455,
+          "readout_ms": 8.505792
+        },
+        {
+          "construction_ms": 587.734241,
+          "readout_ms": 8.864082
+        }
+      ]
+    },
+    {
+      "frame": "f16",
+      "dataset": "TartanAirV2",
+      "model": "da2_small",
+      "shape": [
+        640,
+        640
+      ],
+      "sigma_r": 0.4,
+      "S": 8,
+      "GPA_N": 9,
+      "uniform_scalar_filterings": 16,
+      "GPA_scalar_filterings": 18,
+      "logical_snapshot_bytes": 26214400,
+      "durations_ms": {
+        "direct": [
+          381.925232,
+          384.799469,
+          384.726664,
+          382.908701,
+          384.705605,
+          382.232046,
+          381.731095
+        ],
+        "uniform": [
+          75.926341,
+          77.076473,
+          75.996655,
+          75.759232,
+          77.153263,
+          75.763279,
+          75.884102
+        ],
+        "GPA": [
+          76.892988,
+          76.493644,
+          73.715786,
+          70.759278,
+          76.456193,
+          73.922454,
+          71.003135
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 71.275113,
+          "readout_ms": 3.763488
+        },
+        {
+          "construction_ms": 72.525064,
+          "readout_ms": 3.74567
+        },
+        {
+          "construction_ms": 70.15401,
+          "readout_ms": 4.897797
+        },
+        {
+          "construction_ms": 71.128437,
+          "readout_ms": 3.735486
+        },
+        {
+          "construction_ms": 72.594603,
+          "readout_ms": 3.755079
+        },
+        {
+          "construction_ms": 69.862931,
+          "readout_ms": 4.983117
+        },
+        {
+          "construction_ms": 71.086703,
+          "readout_ms": 3.764626
+        }
+      ]
+    },
+    {
+      "frame": "f16",
+      "dataset": "TartanAirV2",
+      "model": "da2_small",
+      "shape": [
+        640,
+        640
+      ],
+      "sigma_r": 0.4,
+      "S": 32,
+      "GPA_N": 10,
+      "uniform_scalar_filterings": 64,
+      "GPA_scalar_filterings": 20,
+      "logical_snapshot_bytes": 104857600,
+      "durations_ms": {
+        "direct": [
+          380.165411,
+          383.050579,
+          376.726476,
+          383.470578,
+          386.635692,
+          380.039046,
+          382.256201
+        ],
+        "uniform": [
+          294.92887,
+          301.142118,
+          299.619299,
+          294.624604,
+          301.700755,
+          299.63097,
+          294.718474
+        ],
+        "GPA": [
+          82.203254,
+          82.914579,
+          82.86853,
+          81.395142,
+          82.589195,
+          82.357649,
+          82.122883
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 287.945389,
+          "readout_ms": 6.788895
+        },
+        {
+          "construction_ms": 294.295935,
+          "readout_ms": 6.653645
+        },
+        {
+          "construction_ms": 292.638423,
+          "readout_ms": 6.78181
+        },
+        {
+          "construction_ms": 287.594988,
+          "readout_ms": 6.83509
+        },
+        {
+          "construction_ms": 294.765702,
+          "readout_ms": 6.73959
+        },
+        {
+          "construction_ms": 292.670168,
+          "readout_ms": 6.769073
+        },
+        {
+          "construction_ms": 287.580145,
+          "readout_ms": 6.944563
+        }
+      ]
+    },
+    {
+      "frame": "f16",
+      "dataset": "TartanAirV2",
+      "model": "da2_small",
+      "shape": [
+        640,
+        640
+      ],
+      "sigma_r": 0.4,
+      "S": 64,
+      "GPA_N": 11,
+      "uniform_scalar_filterings": 128,
+      "GPA_scalar_filterings": 22,
+      "logical_snapshot_bytes": 209715200,
+      "durations_ms": {
+        "direct": [
+          383.129775,
+          390.794222,
+          384.399966,
+          380.39088,
+          392.604313,
+          386.658385,
+          382.908224
+        ],
+        "uniform": [
+          591.730325,
+          601.95728,
+          596.005593,
+          590.642423,
+          597.743216,
+          595.031339,
+          591.118173
+        ],
+        "GPA": [
+          90.267972,
+          93.141088,
+          94.593384,
+          89.035387,
+          94.340701,
+          95.932221,
+          89.214372
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 582.77791,
+          "readout_ms": 8.620145
+        },
+        {
+          "construction_ms": 592.875032,
+          "readout_ms": 8.747339
+        },
+        {
+          "construction_ms": 587.212804,
+          "readout_ms": 8.459887
+        },
+        {
+          "construction_ms": 581.708836,
+          "readout_ms": 8.594076
+        },
+        {
+          "construction_ms": 588.760182,
+          "readout_ms": 8.64697
+        },
+        {
+          "construction_ms": 586.110788,
+          "readout_ms": 8.590699
+        },
+        {
+          "construction_ms": 582.208886,
+          "readout_ms": 8.576152
+        }
+      ]
+    },
+    {
+      "frame": "f16",
+      "dataset": "TartanAirV2",
+      "model": "zoedepth",
+      "shape": [
+        640,
+        640
+      ],
+      "sigma_r": 0.2,
+      "S": 8,
+      "GPA_N": 16,
+      "uniform_scalar_filterings": 16,
+      "GPA_scalar_filterings": 32,
+      "logical_snapshot_bytes": 26214400,
+      "durations_ms": {
+        "direct": [
+          384.567126,
+          383.711355,
+          376.351709,
+          385.318347,
+          383.069902,
+          376.219217,
+          382.809084
+        ],
+        "uniform": [
+          75.156786,
+          77.558128,
+          75.035113,
+          75.263028,
+          77.359544,
+          75.503553,
+          74.778645
+        ],
+        "GPA": [
+          125.440364,
+          131.601986,
+          131.800863,
+          124.993593,
+          132.310018,
+          131.844707,
+          125.074465
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 70.398581,
+          "readout_ms": 3.684916
+        },
+        {
+          "construction_ms": 73.045113,
+          "readout_ms": 3.724351
+        },
+        {
+          "construction_ms": 70.475154,
+          "readout_ms": 3.680308
+        },
+        {
+          "construction_ms": 70.674211,
+          "readout_ms": 3.706774
+        },
+        {
+          "construction_ms": 72.846952,
+          "readout_ms": 3.707948
+        },
+        {
+          "construction_ms": 70.926799,
+          "readout_ms": 3.67982
+        },
+        {
+          "construction_ms": 70.171585,
+          "readout_ms": 3.722132
+        }
+      ]
+    },
+    {
+      "frame": "f16",
+      "dataset": "TartanAirV2",
+      "model": "zoedepth",
+      "shape": [
+        640,
+        640
+      ],
+      "sigma_r": 0.2,
+      "S": 32,
+      "GPA_N": 18,
+      "uniform_scalar_filterings": 64,
+      "GPA_scalar_filterings": 36,
+      "logical_snapshot_bytes": 104857600,
+      "durations_ms": {
+        "direct": [
+          381.611078,
+          388.478264,
+          376.515126,
+          380.848859,
+          385.167881,
+          400.757816,
+          416.105436
+        ],
+        "uniform": [
+          294.376299,
+          302.475029,
+          299.958347,
+          294.071819,
+          302.005292,
+          299.658388,
+          294.261746
+        ],
+        "GPA": [
+          143.126991,
+          144.506441,
+          143.607071,
+          144.054809,
+          145.101,
+          144.178249,
+          149.449886
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 287.072448,
+          "readout_ms": 7.105905
+        },
+        {
+          "construction_ms": 295.477906,
+          "readout_ms": 6.797567
+        },
+        {
+          "construction_ms": 292.811162,
+          "readout_ms": 6.952792
+        },
+        {
+          "construction_ms": 287.158484,
+          "readout_ms": 6.717608
+        },
+        {
+          "construction_ms": 294.9617,
+          "readout_ms": 6.84367
+        },
+        {
+          "construction_ms": 292.644378,
+          "readout_ms": 6.821703
+        },
+        {
+          "construction_ms": 287.229456,
+          "readout_ms": 6.833123
+        }
+      ]
+    },
+    {
+      "frame": "f16",
+      "dataset": "TartanAirV2",
+      "model": "zoedepth",
+      "shape": [
+        640,
+        640
+      ],
+      "sigma_r": 0.2,
+      "S": 64,
+      "GPA_N": 20,
+      "uniform_scalar_filterings": 128,
+      "GPA_scalar_filterings": 40,
+      "logical_snapshot_bytes": 209715200,
+      "durations_ms": {
+        "direct": [
+          383.328594,
+          388.967095,
+          375.71307,
+          381.31311,
+          390.986764,
+          376.123994,
+          382.317173
+        ],
+        "uniform": [
+          590.477238,
+          597.630467,
+          594.95009,
+          590.110573,
+          596.675927,
+          596.563236,
+          590.109541
+        ],
+        "GPA": [
+          158.976172,
+          163.896706,
+          164.460781,
+          159.443605,
+          163.609799,
+          163.266276,
+          158.907406
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 581.506164,
+          "readout_ms": 8.638374
+        },
+        {
+          "construction_ms": 588.636447,
+          "readout_ms": 8.651148
+        },
+        {
+          "construction_ms": 586.043594,
+          "readout_ms": 8.573719
+        },
+        {
+          "construction_ms": 581.179902,
+          "readout_ms": 8.594587
+        },
+        {
+          "construction_ms": 587.80223,
+          "readout_ms": 8.543017
+        },
+        {
+          "construction_ms": 587.601135,
+          "readout_ms": 8.63151
+        },
+        {
+          "construction_ms": 581.155263,
+          "readout_ms": 8.624577
+        }
+      ]
+    },
+    {
+      "frame": "f16",
+      "dataset": "TartanAirV2",
+      "model": "zoedepth",
+      "shape": [
+        640,
+        640
+      ],
+      "sigma_r": 0.4,
+      "S": 8,
+      "GPA_N": 9,
+      "uniform_scalar_filterings": 16,
+      "GPA_scalar_filterings": 18,
+      "logical_snapshot_bytes": 26214400,
+      "durations_ms": {
+        "direct": [
+          383.250706,
+          383.758289,
+          383.538474,
+          381.842834,
+          382.916739,
+          383.817149,
+          381.554526
+        ],
+        "uniform": [
+          75.886117,
+          77.084591,
+          75.778108,
+          75.698105,
+          77.134465,
+          75.663821,
+          75.815936
+        ],
+        "GPA": [
+          75.005883,
+          76.87322,
+          74.350197,
+          71.362973,
+          76.680894,
+          73.812284,
+          71.377509
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 71.29982,
+          "readout_ms": 3.691498
+        },
+        {
+          "construction_ms": 72.592204,
+          "readout_ms": 3.68547
+        },
+        {
+          "construction_ms": 69.645394,
+          "readout_ms": 5.182238
+        },
+        {
+          "construction_ms": 71.069864,
+          "readout_ms": 3.730306
+        },
+        {
+          "construction_ms": 72.58948,
+          "readout_ms": 3.713722
+        },
+        {
+          "construction_ms": 69.720482,
+          "readout_ms": 5.03726
+        },
+        {
+          "construction_ms": 71.186557,
+          "readout_ms": 3.724605
+        }
+      ]
+    },
+    {
+      "frame": "f16",
+      "dataset": "TartanAirV2",
+      "model": "zoedepth",
+      "shape": [
+        640,
+        640
+      ],
+      "sigma_r": 0.4,
+      "S": 32,
+      "GPA_N": 10,
+      "uniform_scalar_filterings": 64,
+      "GPA_scalar_filterings": 20,
+      "logical_snapshot_bytes": 104857600,
+      "durations_ms": {
+        "direct": [
+          382.232206,
+          386.036639,
+          398.037525,
+          383.05309,
+          388.012968,
+          376.149573,
+          381.973478
+        ],
+        "uniform": [
+          294.265651,
+          305.063354,
+          319.867304,
+          294.06052,
+          304.532646,
+          299.672625,
+          295.071115
+        ],
+        "GPA": [
+          80.826091,
+          82.688195,
+          87.696508,
+          84.955401,
+          82.817402,
+          83.299671,
+          80.623745
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 287.355909,
+          "readout_ms": 6.713235
+        },
+        {
+          "construction_ms": 298.094954,
+          "readout_ms": 6.771754
+        },
+        {
+          "construction_ms": 312.884475,
+          "readout_ms": 6.776216
+        },
+        {
+          "construction_ms": 287.020091,
+          "readout_ms": 6.840666
+        },
+        {
+          "construction_ms": 297.504466,
+          "readout_ms": 6.831935
+        },
+        {
+          "construction_ms": 292.718378,
+          "readout_ms": 6.756264
+        },
+        {
+          "construction_ms": 288.01571,
+          "readout_ms": 6.856264
+        }
+      ]
+    },
+    {
+      "frame": "f16",
+      "dataset": "TartanAirV2",
+      "model": "zoedepth",
+      "shape": [
+        640,
+        640
+      ],
+      "sigma_r": 0.4,
+      "S": 64,
+      "GPA_N": 11,
+      "uniform_scalar_filterings": 128,
+      "GPA_scalar_filterings": 22,
+      "logical_snapshot_bytes": 209715200,
+      "durations_ms": {
+        "direct": [
+          382.191279,
+          390.190143,
+          383.658446,
+          381.572369,
+          392.043308,
+          384.096095,
+          381.708826
+        ],
+        "uniform": [
+          590.732744,
+          597.826279,
+          596.145323,
+          591.197768,
+          598.135035,
+          595.149484,
+          590.211183
+        ],
+        "GPA": [
+          89.280705,
+          94.454598,
+          94.765899,
+          88.669046,
+          94.273666,
+          94.702047,
+          88.838674
+        ]
+      },
+      "uniform_stages_ms": [
+        {
+          "construction_ms": 581.70697,
+          "readout_ms": 8.682432
+        },
+        {
+          "construction_ms": 588.954043,
+          "readout_ms": 8.527257
+        },
+        {
+          "construction_ms": 587.20858,
+          "readout_ms": 8.624718
+        },
+        {
+          "construction_ms": 582.168679,
+          "readout_ms": 8.705615
+        },
+        {
+          "construction_ms": 589.172819,
+          "readout_ms": 8.650003
+        },
+        {
+          "construction_ms": 586.188131,
+          "readout_ms": 8.613252
+        },
+        {
+          "construction_ms": 581.410649,
+          "readout_ms": 8.47471
+        }
+      ]
+    }
+  ]
+}

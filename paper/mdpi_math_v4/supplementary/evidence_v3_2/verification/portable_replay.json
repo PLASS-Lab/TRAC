@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": 12309,
+  "failures": [],
+  "schemes_replayed": 3072,
+  "query_row_checks": 789504,
+  "max_replay_abs_gap": 9.324138683375338e-17,
+  "max_sampled_error_over_tolerance": 0.7871723550483276,
+  "v3_1_files_preserved": 0,
+  "scope": "finite_FP64_replay_not_formal_continuous_certificate"
+}

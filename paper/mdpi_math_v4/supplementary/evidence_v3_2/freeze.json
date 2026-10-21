@@ -1,0 +1,219 @@
+{
+  "date_seoul": "2026-10-08",
+  "role": "reused_diagnostic_not_holdout",
+  "sigma_s": 2,
+  "radius": 6,
+  "probes_per_image": 16,
+  "sigma_r": [
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "normalized_tolerances": [
+    0.01,
+    0.001
+  ],
+  "query_grid": 257,
+  "images": [
+    {
+      "index": 0,
+      "scene": "kitchen_0004",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0000_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0000_depth.npy",
+      "rgb_sha256": "ecc2033477bf25f08607f81df73d89e69c65f1695d804f535d05fcc47110b98e",
+      "depth_sha256": "effcf1034c59d0d4389fc0badd78d013ec7a0572b5fd4aa76b56a66af1e41b80"
+    },
+    {
+      "index": 55,
+      "scene": "bedroom_0011",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0055_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0055_depth.npy",
+      "rgb_sha256": "8285ee5b75575b1f52319ea4a388697dc8c74f9280e0a9efb746262552bfe35a",
+      "depth_sha256": "b722e5cddbbeddf52bd7f46b09475052f3fff0f570b8a71171895a1f88b627ba"
+    },
+    {
+      "index": 130,
+      "scene": "kitchen_0007",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0130_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0130_depth.npy",
+      "rgb_sha256": "a4f72827916e9e6dd6d49080836076a085d09ed662631a3923a37a6c6343a299",
+      "depth_sha256": "d505462ecca1c745a3776bb46ad81f11fd5a81d30eb1ae3aee8152ebdc90ce68"
+    },
+    {
+      "index": 189,
+      "scene": "bedroom_0007",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0189_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0189_depth.npy",
+      "rgb_sha256": "a5b7eb1f4be371abcffa9ddf13818e6dcab3dbb878881f47f96ada53607d2243",
+      "depth_sha256": "8929d72297e965569a06b7bb05435aaa5ae2f900778b5cf400a64bacc6f90566"
+    },
+    {
+      "index": 278,
+      "scene": "study_room_0006",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0278_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0278_depth.npy",
+      "rgb_sha256": "e2ec8ae249539bd466b4a7dcbb4606d77c5a4ac7b2f2348f4ab0ba773a8c8071",
+      "depth_sha256": "bd80565654f9cf4d0ef673fe35f1369f4eeaacba6ffde4196d4786ab89c37156"
+    },
+    {
+      "index": 331,
+      "scene": "classroom_0026",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0331_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0331_depth.npy",
+      "rgb_sha256": "7a55f2a56e2598b37f465cf6d783851df7bc4fc8aa55123a0bb8e7b64a1fb1b0",
+      "depth_sha256": "4cff064135bb6e7a691d20213c5390502ece31d9abd68ba023489543d8ce8b20"
+    },
+    {
+      "index": 411,
+      "scene": "office_kitchen_0002",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0411_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0411_depth.npy",
+      "rgb_sha256": "aa8da363be6ec2bfd477e38648988616ebae4b7f8ef8aa6dcf6a620792ae62fd",
+      "depth_sha256": "9aec13a24a9810b0c108c4979e1cc13edbb626f7b19d489be7bb48c7bb20df01"
+    },
+    {
+      "index": 473,
+      "scene": "study_0002",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0473_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0473_depth.npy",
+      "rgb_sha256": "cb103d65d1f4f22e5a620f350ae9b58e5e00ef0c36befbc7d9f999de775c47f1",
+      "depth_sha256": "6d75709c2c85cf2f095c1b16dbb05eccbeac7212f510e94e3f2967b34552015e"
+    },
+    {
+      "index": 538,
+      "scene": "bedroom_0139",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0538_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0538_depth.npy",
+      "rgb_sha256": "5072f4eef7bc99bd92d0cfdd967323af324498cebc0716bcc234c0ee31215962",
+      "depth_sha256": "5223ed9843bd19a21fd398ff5e1200b3ed445600d2356f85e81be2d4b1c6a0da"
+    },
+    {
+      "index": 591,
+      "scene": "living_room_0084",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0591_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0591_depth.npy",
+      "rgb_sha256": "3ee60ae4e695f096dacb8b723f9e20f24c5a3e9f80e18f0699e4194c484b79ea",
+      "depth_sha256": "7fb602760959e99b3e97505775b8d27932148ea38d6ad2c2e5eb4592b5edfc6b"
+    },
+    {
+      "index": 657,
+      "scene": "bathroom_0012",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0657_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0657_depth.npy",
+      "rgb_sha256": "3c7e8865677cae41a867827f9bd46642cb85ab0f8ee9d620cada353d9b84d963",
+      "depth_sha256": "572d936950bbb21bccbee2c23922ac519abb2a8461a9c48035e34a62375acfd1"
+    },
+    {
+      "index": 707,
+      "scene": "bathroom_0036",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0707_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0707_depth.npy",
+      "rgb_sha256": "276b500a76c07eea56b47f42c8e815b79bc6bdd497e4d6dbc9b7ca7dd9602e28",
+      "depth_sha256": "f49fda8868586449a5523b999714f53ed294db66a11d48206cf9faf34acb5db7"
+    },
+    {
+      "index": 766,
+      "scene": "kitchen_0023",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0766_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0766_depth.npy",
+      "rgb_sha256": "825ab9ae4d37dc14e4eaeec7dc37f4e0e481cb0bb959a1297bba735b22bbea85",
+      "depth_sha256": "02567310025d9f675327244b2d3ff658ea0f64f1530adcad2d11be625d548376"
+    },
+    {
+      "index": 810,
+      "scene": "kitchen_0032",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0810_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0810_depth.npy",
+      "rgb_sha256": "5026824fa5ba07d297dfc27f8d798f1b70ae71ef01956961fd5eb2df1b31dc73",
+      "depth_sha256": "35484227be136bc8d916af671eb09f0db1f49458ac09d235b0d246f3aa720dc4"
+    },
+    {
+      "index": 859,
+      "scene": "kitchen_0044",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0859_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0859_depth.npy",
+      "rgb_sha256": "3e30d8cb771fd3e18862816ab2e55bcb872cc9d222cdd49553e39d363905a3dc",
+      "depth_sha256": "de0aa132d81f48494d624be967d3cdf36ef43c09f215e5d9bfc12558d06168d8"
+    },
+    {
+      "index": 965,
+      "scene": "bedroom_0046",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/0965_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/0965_depth.npy",
+      "rgb_sha256": "ee74da1e9fba9b1c2daca802e2bd09223df9907f5b07c5ac697da655b4cf7b8d",
+      "depth_sha256": "d0d3a8902a2222c5f64d61155c4838b0bf2bc609c215fcd864090e6b5f5bcfb3"
+    },
+    {
+      "index": 1033,
+      "scene": "bedroom_0068",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/1033_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/1033_depth.npy",
+      "rgb_sha256": "9bf328f718a0c1bd667f150696e52aa24b1235a1a7475947cf1b41b1aee768fc",
+      "depth_sha256": "ce834cb89a3bf48b8d54a1c55022b02317f4a47b95a4c4b0fa588042736e81d1"
+    },
+    {
+      "index": 1095,
+      "scene": "bedroom_0089",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/1095_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/1095_depth.npy",
+      "rgb_sha256": "97d98ab16482d502d93454c93647148f01792af353831614a0d9bb55b842f992",
+      "depth_sha256": "fabcee54b93d13cc8b7fac503365ef2fac797a17f0b6babe12c65296ba0e64d2"
+    },
+    {
+      "index": 1144,
+      "scene": "bedroom_0108",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/1144_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/1144_depth.npy",
+      "rgb_sha256": "113c380b4cbbc66f593a44502c5197bc604be8923fbe78990dc872989212ddb4",
+      "depth_sha256": "928b210fd2556497b682c616750c5cd6bd3523cbed47902f9e95de9594b9272d"
+    },
+    {
+      "index": 1180,
+      "scene": "bedroom_0122",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/1180_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/1180_depth.npy",
+      "rgb_sha256": "b626d47ef4fcef83511a23943be32a4f5a12444a8c5e1b2d010a610c8f820805",
+      "depth_sha256": "c673d05e21a8ea4d4c29ea7dac6db1c655bf6a92030b1988770edd65ba1d8927"
+    },
+    {
+      "index": 1226,
+      "scene": "living_room_0034",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/1226_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/1226_depth.npy",
+      "rgb_sha256": "bd158fb5e7b19d3469535dff3199192400c7f89857fbb22727dd3139ea3904b5",
+      "depth_sha256": "f34c821ea90bd107009d5493580b8e86222bc99c723b0037d6ac6ef6a305e179"
+    },
+    {
+      "index": 1278,
+      "scene": "living_room_0049",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/1278_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/1278_depth.npy",
+      "rgb_sha256": "62d16353d05c4e14198f9621024c242ed2bd9830af4a75f20a936474363b0465",
+      "depth_sha256": "b3bd4fcc57e64f0b9e8d208538e1e3ab21e23b7167245b8e02440e4ae30dd39b"
+    },
+    {
+      "index": 1330,
+      "scene": "living_room_0075",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/1330_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/1330_depth.npy",
+      "rgb_sha256": "f7a11cd4c8455f36c0da03addee7928ae0ce0d1bbc32f220e1474ade07c3d64c",
+      "depth_sha256": "1f28ac0266703e1132255e2c51482117d96696ea1abe081d7893905600647254"
+    },
+    {
+      "index": 1393,
+      "scene": "dining_room_0020",
+      "rgb": "/home/hyunsu/dataset_ssd/nyu_v2/test/1393_rgb.png",
+      "depth": "/home/hyunsu/dataset_ssd/nyu_v2/test/1393_depth.npy",
+      "rgb_sha256": "9cbdc133f4c57104789e2fc73a5da9e38aea17931274021efccc1c541e78e09f",
+      "depth_sha256": "289ebcc0f06aaa50fa0057b3f5823086f631c6991d3adae2450abd7c2d69ee8e"
+    }
+  ],
+  "sources": {
+    "scripts/evaluate_math_v3_2.py": "5632b3d7c8fc86150490ac41b6151c008b3a63f65cb292af46185ab9be13d595",
+    "sokkanaem/certified_scalar_cache.py": "81ba7db477fa6ff4d95762c972afa957a72e277b9e57b56f85b752974f6c4533",
+    "sokkanaem/range_cache_filter.py": "9dcf46010aa48ee6eb6c780910740dbb0f80b058da029b6c1ce1064cddd40185",
+    "work_dirs/mdpi_math_v3_2/PLAN.md": "595eaee47c117876cee86f6e7ae6657bdf7752d651947964bcda92cf363cc708"
+  },
+  "source_manifest_sha256": "681759800c914e5e4e2dcc2c445902c31e7a5ca1483f68d24d07738a3cd28398"
+}

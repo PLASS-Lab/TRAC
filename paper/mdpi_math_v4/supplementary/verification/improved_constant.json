@@ -1,0 +1,535 @@
+{
+ "PRIMARY_single_log": {
+  "circle_constant": 2000,
+  "curve_constant": 12000,
+  "family_constant": 20000,
+  "crude_regime": {
+   "S_range": [
+    2,
+    66
+   ],
+   "worst_cover": 1.2760248327144026
+  },
+  "tail_regime": {
+   "S_from": 67,
+   "params": {
+    "mu": "5/2",
+    "q": "7",
+    "sigma": "1/25"
+   },
+   "enclosures": {
+    "e1": [
+     2.1400568630025848e-08,
+     2.1400568630025848e-08
+    ],
+    "bbar": [
+     2.7048606702862268e-05,
+     2.7048606702862268e-05
+    ],
+    "cF": [
+     1.0000067675705173,
+     1.0000067675705173
+    ],
+    "Rbar": [
+     0.014713170204171023,
+     0.014713170204171023
+    ],
+    "kappaR": [
+     2.0047053844839073,
+     2.0047053844839073
+    ],
+    "gamma": [
+     4.00005411934619,
+     4.00005411934619
+    ],
+    "g0": [
+     6.927534839604112,
+     6.927534839604112
+    ],
+    "g1": [
+     5.46059141802634,
+     5.46059141802634
+    ],
+    "a": [
+     -4.660938777589019,
+     -4.660938777589019
+    ],
+    "b": [
+     5.612377756164445,
+     5.612377756164445
+    ],
+    "d": [
+     10.273316533753464,
+     10.273316533753464
+    ],
+    "C": [
+     26.598524934466212,
+     26.598524934466212
+    ],
+    "D": [
+     22.65417228684248,
+     22.65417228684248
+    ],
+    "final": [
+     57.26957624172388,
+     57.26957624172388
+    ],
+    "logq": [
+     1.9459101490553132,
+     1.9459101490553132
+    ],
+    "l0": [
+     -4.129612838146807,
+     -4.129612838146807
+    ]
+   },
+   "Lambda_sqrtK": [
+    57.55648891433086,
+    57.55648891433086
+   ]
+  },
+  "direct_Psi_samples": {
+   "67": 1.1559511231578692,
+   "100": 1.1289092985093756,
+   "200": 1.1733380168280776,
+   "400": 1.2062678416657637,
+   "1000": 1.1671335413066175,
+   "10000": 1.2150285648680978,
+   "1000000": 1.2348492810441323,
+   "1000000000": 1.2352836523193906,
+   "1000000000000000": 1.2318578829146227,
+   "1000000000000000000000000000000": 1.2266435403429512,
+   "1000000000000000000000000000000000000000000000000000000000000": 1.217684376003944
+  },
+  "crossovers": {
+   "refereed_6e7_beats_1/(2304S^3)_from_S": 359154,
+   "new_12000_beats_1/(2304S^3)_from_S": 22,
+   "new_12000_beats_1/(480C(S,2)^2)_from_S": 22,
+   "new_12000_relaxation_ratio>1_from_S": 623,
+   "squared_log_960_stronger_than_single_log_12000_below_S": 98716
+  }
+ },
+ "VARIANT_squared_log": "fields below",
+ "label": "Part A/B exact rational intervals; Part C float EVIDENCE ONLY",
+ "circle_constant_K": 160,
+ "curve_constant": 960,
+ "family_constant": 1600,
+ "Lambda_enclosure": [
+  1.2870022175865687,
+  1.2870022175865687
+ ],
+ "crude_regime": {
+  "S_range": [
+   2,
+   38
+  ],
+  "worst_cover": 1.2614782903192352
+ },
+ "analytic_regime": {
+  "S_from": 39,
+  "params": {
+   "mu": "3",
+   "q": "18",
+   "sigma": "1/200",
+   "m": "1"
+  },
+  "A_upper": 16.077051128185566,
+  "B_upper": 16.242384562939343,
+  "Lambda_sqrtK_lower": 16.27943344504468,
+  "enclosures": {
+   "A": [
+    16.077051128185566,
+    16.077051128185566
+   ],
+   "B": [
+    16.242384562939343,
+    16.242384562939343
+   ],
+   "e1": [
+    1.8893627965834148e-07,
+    1.8893627965834148e-07
+   ],
+   "bbar": [
+    2.9264340356280513e-05,
+    2.9264340356280513e-05
+   ],
+   "cF": [
+    1.0000073634004878,
+    1.0000073634004878
+   ],
+   "cB": [
+    1.0024554596812576,
+    1.0024554596812576
+   ],
+   "Rmax": [
+    0.01532557727850776,
+    0.01532557727850776
+   ],
+   "bottom": [
+    21.111822923780018,
+    21.111822923780018
+   ],
+   "top": [
+    20.000146323307554,
+    20.000146323307554
+   ],
+   "logq": [
+    2.8903717578961645,
+    2.8903717578961645
+   ],
+   "logratio": [
+    -6.2733921512638995,
+    -6.2733921512638995
+   ],
+   "sqrt_g": [
+    [
+     3.2311293170588806,
+     3.2311293170588806
+    ],
+    [
+     2.926971041968769,
+     2.926971041968769
+    ]
+   ],
+   "Lambda_sqrtK": [
+    16.27943344504468,
+    16.27943344504468
+   ]
+  }
+ },
+ "direct_Phi_samples": {
+  "39": 0.9213072564321484,
+  "50": 0.9091956106538666,
+  "100": 0.9337206681000143,
+  "200": 0.9968887428211178,
+  "400": 1.000660573545434,
+  "1000": 1.043558705625329,
+  "10000": 1.1323509853831084,
+  "1000000": 1.1632336964327474,
+  "1000000000": 1.2096368958450103,
+  "1000000000000000": 1.2216233356282984,
+  "1000000000000000000000000000000": 1.2485353448535024,
+  "1000000000000000000000000000000000000000000000000000000000000": 1.2626614750601934
+ },
+ "circle_upper_constructions": [
+  {
+   "S": 4,
+   "circle_lower_bound": 6.859808700419441e-05,
+   "snapshot_grid_max": 0.02345464609751351,
+   "best_ring_grid_max": 0.02345464609751351,
+   "ratio_best/lower": 341.91399675736415,
+   "circle_lower_bound_single_log": 1.3095618256137662e-05
+  },
+  {
+   "S": 8,
+   "circle_lower_bound": 1.02980765342867e-05,
+   "snapshot_grid_max": 0.004240375458789137,
+   "best_ring_grid_max": 0.00353737150069538,
+   "ratio_best/lower": 343.49827260634135,
+   "circle_lower_bound_single_log": 2.536985974326462e-06
+  },
+  {
+   "S": 16,
+   "circle_lower_bound": 1.715383102707129e-06,
+   "snapshot_grid_max": 0.0009209143513889865,
+   "best_ring_grid_max": 0.0005476328643409648,
+   "ratio_best/lower": 319.24813965855145,
+   "circle_lower_bound_single_log": 5.17714795807488e-07
+  },
+  {
+   "S": 32,
+   "circle_lower_bound": 3.0605113104267536e-07,
+   "snapshot_grid_max": 0.00021548785961679625,
+   "best_ring_grid_max": 0.00021548785961679625,
+   "ratio_best/lower": 704.0910415284461,
+   "circle_lower_bound_single_log": 1.0933948191917916e-07
+  },
+  {
+   "S": 64,
+   "circle_lower_bound": 5.73335321741468e-08,
+   "snapshot_grid_max": 5.216826155620397e-05,
+   "best_ring_grid_max": 5.216826155620397e-05,
+   "ratio_best/lower": 909.9083830688528,
+   "circle_lower_bound_single_log": 2.3662159139397074e-08
+  },
+  {
+   "S": 128,
+   "circle_lower_bound": 1.1139019165982671e-08,
+   "snapshot_grid_max": 1.2837066972067782e-05,
+   "best_ring_grid_max": 1.2837066972067782e-05,
+   "ratio_best/lower": 1152.4414116523617,
+   "circle_lower_bound_single_log": 5.2148701815768984e-09
+  }
+ ],
+ "curve_upper_constructions": [
+  {
+   "S": 2,
+   "theorem_lower_bound": 9.084046572579712e-05,
+   "snapshot_two_read_grid_max": 0.16666666666666674,
+   "upper_bound_9log2^2/(4(S-1)^2)": 1.0810192813159532,
+   "ratio": 1834.7183200243796,
+   "theorem_lower_bound_single_log": 1.2304502273950858e-05
+  },
+  {
+   "S": 4,
+   "theorem_lower_bound": 1.1433014500699068e-05,
+   "snapshot_two_read_grid_max": 0.025446316356154547,
+   "upper_bound_9log2^2/(4(S-1)^2)": 0.12011325347955035,
+   "ratio": 2225.6874033177023,
+   "theorem_lower_bound_single_log": 2.1826030426896105e-06
+  },
+  {
+   "S": 8,
+   "theorem_lower_bound": 1.7163460890477834e-06,
+   "snapshot_two_read_grid_max": 0.004858907643570193,
+   "upper_bound_9log2^2/(4(S-1)^2)": 0.02206161798603986,
+   "ratio": 2830.9603025727056,
+   "theorem_lower_bound_single_log": 4.2283099572107697e-07
+  },
+  {
+   "S": 16,
+   "theorem_lower_bound": 2.858971837845215e-07,
+   "snapshot_two_read_grid_max": 0.0010655875616819854,
+   "upper_bound_9log2^2/(4(S-1)^2)": 0.0048045301391820144,
+   "ratio": 3727.1705428379128,
+   "theorem_lower_bound_single_log": 8.628579930124798e-08
+  },
+  {
+   "S": 32,
+   "theorem_lower_bound": 5.100852184044589e-08,
+   "snapshot_two_read_grid_max": 0.00024986104484003846,
+   "upper_bound_9log2^2/(4(S-1)^2)": 0.0011248899909635309,
+   "ratio": 4898.417672670483,
+   "theorem_lower_bound_single_log": 1.822324698652986e-08
+  },
+  {
+   "S": 64,
+   "theorem_lower_bound": 9.555588695691134e-09,
+   "snapshot_two_read_grid_max": 6.051898550252233e-05,
+   "upper_bound_9log2^2/(4(S-1)^2)": 0.00027236565414864026,
+   "ratio": 6333.360238685444,
+   "theorem_lower_bound_single_log": 3.943693189899512e-09
+  }
+ ],
+ "crossovers": {
+  "old_theorem_beats_1/(2304S^3)_from_S": 98017000,
+  "new_theorem_beats_1/(2304S^3)_from_S": 2,
+  "old_theorem_beats_1/(480C(S,2)^2)_from_S": 24870,
+  "new_theorem_beats_1/(480C(S,2)^2)_from_S": 11,
+  "old_relaxation_ratio>1_from_S": 739251,
+  "new_relaxation_ratio>1_from_S": 461
+ },
+ "checks": [
+  {
+   "name": "transfer_identity_Ta=w/(1+x)",
+   "pass": true
+  },
+  {
+   "name": "T_l1_norm_is_2",
+   "pass": true
+  },
+  {
+   "name": "arc_identity_2atan2-2atan(1/2)=2atan(3/4)",
+   "pass": true
+  },
+  {
+   "name": "transfer_factor_2(1+x)<=6_on_[1/2,2]",
+   "pass": true
+  },
+  {
+   "name": "Lambda_lower_bound",
+   "pass": true,
+   "Lambda_lo": 1.2870022175865687
+  },
+  {
+   "name": "crude_regime_each_S_2..38",
+   "pass": true,
+   "worst": 1.2614782903192352,
+   "Lambda": 1.2870022175865687
+  },
+  {
+   "name": "crude_regime_endpoint_S=38",
+   "pass": true,
+   "bound": 1.2624648496237905,
+   "Lambda": 1.2870022175865687
+  },
+  {
+   "name": "tail_side_mu>1",
+   "pass": true
+  },
+  {
+   "name": "tail_side_mu<=sigma*S1^2+1",
+   "pass": true
+  },
+  {
+   "name": "tail_side_log_q((sigma S1^2+1)/mu)>=m-1",
+   "pass": true
+  },
+  {
+   "name": "tail_side_bbar+e1<=1",
+   "pass": true
+  },
+  {
+   "name": "tail_side_Rmax<pi",
+   "pass": true
+  },
+  {
+   "name": "tail_side_g_k decreasing (algebraic, see note)",
+   "pass": true
+  },
+  {
+   "name": "tail_slope_B<=Lambda*sqrt(K)",
+   "pass": true,
+   "B": 16.242384562939343,
+   "c": 16.27943344504468
+  },
+  {
+   "name": "tail_endpoint_A+B*logS1<Lambda*sqrt(K)*(1+logS1)",
+   "pass": true,
+   "lhs": 75.58202825465838,
+   "rhs": 75.92014143503059,
+   "A": 16.077051128185566,
+   "cB": 1.0024554596812576,
+   "cF": 1.0000073634004878,
+   "Rmax": 0.01532557727850776,
+   "bbar": 2.9264340356280513e-05
+  },
+  {
+   "name": "tail_A<=Lambda*sqrt(K)_(so_all_S>=S1_without_endpoint)",
+   "pass": true,
+   "A": 16.077051128185566,
+   "c": 16.27943344504468
+  },
+  {
+   "name": "degenerate_single_line_2F(2e)<Lambda",
+   "pass": true
+  },
+  {
+   "name": "direct_Phi_below_Lambda_S=39..400_and_huge",
+   "pass": true,
+   "worst": 1.2626614750601934,
+   "worst_S": 1000000000000000000000000000000000000000000000000000000000000
+  },
+  {
+   "name": "float_lemma_centers_ratio<=1",
+   "pass": true,
+   "worst": 0.9985785330337973
+  },
+  {
+   "name": "float_lemma_plane_transverse_ratio<=1",
+   "pass": true,
+   "worst": 1.000000000000178
+  },
+  {
+   "name": "float_lemma_plane_single_ratio<=1",
+   "pass": true,
+   "worst": 0.9995398927473746
+  },
+  {
+   "name": "float_circle_upper_constructions_above_new_lower",
+   "pass": true,
+   "min_ratio": 319.24813965855145
+  },
+  {
+   "name": "float_curve_snapshot_above_new_lower",
+   "pass": true,
+   "min_ratio": 1834.7183200243796
+  },
+  {
+   "name": "exact_new_beats_2304S^3_for_S=2..199_(monotone_beyond)",
+   "pass": true
+  },
+  {
+   "name": "exact_new_beats_norming_at_first_S",
+   "pass": true,
+   "S": 11
+  },
+  {
+   "name": "exact_relaxation_threshold_S=461",
+   "pass": true
+  },
+  {
+   "name": "X_crude_regime_each_S_2..66",
+   "pass": true,
+   "worst": 1.2760248327144026
+  },
+  {
+   "name": "X_crude_endpoint_S=66_(monotone)",
+   "pass": true,
+   "bound": 1.2761045776315645
+  },
+  {
+   "name": "X_tail_side_mu>1",
+   "pass": true
+  },
+  {
+   "name": "X_tail_side_mu<=sigma*S1^2+1",
+   "pass": true
+  },
+  {
+   "name": "X_tail_side_bbar+e1<=1",
+   "pass": true
+  },
+  {
+   "name": "X_tail_side_Rbar<pi",
+   "pass": true
+  },
+  {
+   "name": "X_tail_side_arc_length_2Rbar*kR<pi",
+   "pass": true
+  },
+  {
+   "name": "X_tail_side_d=b-a>0",
+   "pass": true
+  },
+  {
+   "name": "X_tail_closed_form_Dsqrt(b)+C^2sqrt(b)/(2Dd)<Lambda*sqrt(2000)",
+   "pass": true,
+   "lhs": 57.26957624172388,
+   "rhs": 57.55648891433086
+  },
+  {
+   "name": "X_direct_Psi_below_Lambda_S=67..400_and_huge",
+   "pass": true,
+   "worst": 1.2352836523193906,
+   "worst_S": "1000000000"
+  },
+  {
+   "name": "float_minimal_subcover_multiplicity<=2",
+   "pass": true,
+   "worst": 2
+  },
+  {
+   "name": "float_actual_coverage<=Psi",
+   "pass": true,
+   "worst_ratio": 0.033531818011746005
+  },
+  {
+   "name": "float_constructions_above_single_log_bounds",
+   "pass": true,
+   "min_ratio_circle": 1057.788706785583,
+   "min_ratio_curve": 11491.370530403123
+  },
+  {
+   "name": "X_exact_beats_2304S^3_from_S=22",
+   "pass": true
+  },
+  {
+   "name": "X_exact_beats_norming_from_S=22",
+   "pass": true
+  },
+  {
+   "name": "X_exact_relaxation_threshold_S=623",
+   "pass": true
+  },
+  {
+   "name": "X_family_81920S^3_dominated_S=2_(S/h increasing)",
+   "pass": true
+  },
+  {
+   "name": "X_transfer_constants_6*2000=12000_10*2000=20000",
+   "pass": true
+  }
+ ],
+ "failures": []
+}

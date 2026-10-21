@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checks": {
+    "V3_4_all_1282_files_unchanged": true,
+    "all_inherited_figures_and_evidence_byte_identical": true,
+    "all_43_math_blocks_byte_identical": true,
+    "all_30_numbered_equations_byte_identical": true,
+    "all_30_equations_still_referenced": true,
+    "multiscale_proof_file_byte_identical": true,
+    "14_main_figures_9_supplement_figures": true,
+    "old_and_new_actual_inference_figures_in_main": true,
+    "new_comparison_protocols_and_results_linked": true,
+    "no_obsolete_no_new_measurements_statement": true,
+    "sources_match_before_prediction_freeze": true,
+    "36_frames_two_fixed_models_72_predictions": true,
+    "correct_official_tartan_byte_order_checked": true,
+    "432_checks_and_157286400_pixels_per_method": true,
+    "all_stored_errors_below_proved_budgets": true,
+    "one_baseline_calibration_per_prediction": true,
+    "unfavorable_task_and_cost_outcomes_retained": true,
+    "independent_native_filter_and_all_baseline_replay_pass": true,
+    "18_prior_reference_oracle_cases_pass": true,
+    "manuscript_references_and_layout_clean": true,
+    "manuscript_fonts_embedded": true,
+    "supplementary_references_and_layout_clean": true,
+    "supplementary_fonts_embedded": true,
+    "supplement_navigation_S14_S15": true
+  },
+  "pages": {
+    "manuscript": 37,
+    "supplementary": 26
+  },
+  "V3_4_files_preserved": 1282,
+  "inherited_assets_preserved": 1182,
+  "fresh_predictions": 72,
+  "checks_per_method": 432
+}

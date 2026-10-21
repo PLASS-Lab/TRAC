@@ -1,0 +1,14 @@
+{
+  "frame": "f30",
+  "model": "da2_small",
+  "array_sha256": "78094a4871c534572b51e6485fe1ed045aefddd0bc66854973e6dd5739a77313",
+  "forward_wall_s": 0.010129414033144712,
+  "min": 0.0,
+  "max": 3.6426942348480225,
+  "processor_input_shape": [
+    1,
+    3,
+    518,
+    518
+  ]
+}

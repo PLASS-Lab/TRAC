@@ -1,0 +1,80 @@
+Loading weights:   0%|          | 0/287 [00:00<?, ?it/s]Loading weights: 100%|██████████| 287/287 [00:00<00:00, 20741.70it/s]
+Predicted f00 Bonn da2_small 0.144 s
+Predicted f01 Bonn da2_small 0.015 s
+Predicted f02 Bonn da2_small 0.014 s
+Predicted f03 Bonn da2_small 0.014 s
+Predicted f04 Bonn da2_small 0.014 s
+Predicted f05 Bonn da2_small 0.014 s
+Predicted f06 Bonn da2_small 0.014 s
+Predicted f07 Bonn da2_small 0.014 s
+Predicted f08 Bonn da2_small 0.014 s
+Predicted f09 Bonn da2_small 0.014 s
+Predicted f10 Bonn da2_small 0.014 s
+Predicted f11 Bonn da2_small 0.014 s
+Predicted f12 Bonn da2_small 0.014 s
+Predicted f13 Bonn da2_small 0.015 s
+Predicted f14 Bonn da2_small 0.014 s
+Predicted f15 Bonn da2_small 0.014 s
+Predicted f16 TartanAirV2 da2_small 0.021 s
+Predicted f17 TartanAirV2 da2_small 0.01 s
+Predicted f18 TartanAirV2 da2_small 0.01 s
+Predicted f19 TartanAirV2 da2_small 0.01 s
+Predicted f20 TartanAirV2 da2_small 0.01 s
+Predicted f21 TartanAirV2 da2_small 0.01 s
+Predicted f22 TartanAirV2 da2_small 0.01 s
+Predicted f23 TartanAirV2 da2_small 0.01 s
+Predicted f24 TartanAirV2 da2_small 0.01 s
+Predicted f25 TartanAirV2 da2_small 0.01 s
+Predicted f26 TartanAirV2 da2_small 0.01 s
+Predicted f27 TartanAirV2 da2_small 0.01 s
+Predicted f28 TartanAirV2 da2_small 0.01 s
+Predicted f29 TartanAirV2 da2_small 0.01 s
+Predicted f30 TartanAirV2 da2_small 0.01 s
+Predicted f31 TartanAirV2 da2_small 0.01 s
+Predicted f32 TartanAirV2 da2_small 0.01 s
+Predicted f33 TartanAirV2 da2_small 0.01 s
+Predicted f34 TartanAirV2 da2_small 0.01 s
+Predicted f35 TartanAirV2 da2_small 0.01 s
+Loading weights:   0%|          | 0/647 [00:00<?, ?it/s]Loading weights: 100%|██████████| 647/647 [00:00<00:00, 18085.04it/s]
+/home/hyunsu/miniforge3/envs/sokkanaem/lib/python3.11/site-packages/torch/nn/modules/linear.py:125: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:233.)
+  return F.linear(input, self.weight, self.bias)
+/home/hyunsu/miniforge3/envs/sokkanaem/lib/python3.11/site-packages/transformers/models/zoedepth/modeling_zoedepth.py:822: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:233.)
+  attention_scores = torch.matmul(query_layer, key_layer.transpose(-1, -2))
+/home/hyunsu/miniforge3/envs/sokkanaem/lib/python3.11/site-packages/transformers/models/zoedepth/modeling_zoedepth.py:836: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:233.)
+  context_layer = torch.matmul(attention_probs, value_layer)
+Predicted f00 Bonn zoedepth 0.277 s
+Predicted f01 Bonn zoedepth 0.067 s
+Predicted f02 Bonn zoedepth 0.067 s
+Predicted f03 Bonn zoedepth 0.066 s
+Predicted f04 Bonn zoedepth 0.067 s
+Predicted f05 Bonn zoedepth 0.067 s
+Predicted f06 Bonn zoedepth 0.067 s
+Predicted f07 Bonn zoedepth 0.066 s
+Predicted f08 Bonn zoedepth 0.066 s
+Predicted f09 Bonn zoedepth 0.067 s
+Predicted f10 Bonn zoedepth 0.067 s
+Predicted f11 Bonn zoedepth 0.067 s
+Predicted f12 Bonn zoedepth 0.067 s
+Predicted f13 Bonn zoedepth 0.067 s
+Predicted f14 Bonn zoedepth 0.066 s
+Predicted f15 Bonn zoedepth 0.066 s
+Predicted f16 TartanAirV2 zoedepth 0.122 s
+Predicted f17 TartanAirV2 zoedepth 0.108 s
+Predicted f18 TartanAirV2 zoedepth 0.108 s
+Predicted f19 TartanAirV2 zoedepth 0.108 s
+Predicted f20 TartanAirV2 zoedepth 0.108 s
+Predicted f21 TartanAirV2 zoedepth 0.108 s
+Predicted f22 TartanAirV2 zoedepth 0.108 s
+Predicted f23 TartanAirV2 zoedepth 0.108 s
+Predicted f24 TartanAirV2 zoedepth 0.108 s
+Predicted f25 TartanAirV2 zoedepth 0.108 s
+Predicted f26 TartanAirV2 zoedepth 0.108 s
+Predicted f27 TartanAirV2 zoedepth 0.108 s
+Predicted f28 TartanAirV2 zoedepth 0.108 s
+Predicted f29 TartanAirV2 zoedepth 0.108 s
+Predicted f30 TartanAirV2 zoedepth 0.108 s
+Predicted f31 TartanAirV2 zoedepth 0.108 s
+Predicted f32 TartanAirV2 zoedepth 0.108 s
+Predicted f33 TartanAirV2 zoedepth 0.108 s
+Predicted f34 TartanAirV2 zoedepth 0.108 s
+Predicted f35 TartanAirV2 zoedepth 0.108 s

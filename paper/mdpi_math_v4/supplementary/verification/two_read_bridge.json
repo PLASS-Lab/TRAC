@@ -1,0 +1,133 @@
+{
+  "scope": "Four keys 0,1,2,3; t=log x in [-log2,log2]; R=1; equally spaced snapshot rows; two scalar cells read per query.",
+  "qualification": "Dense-grid numerical diagnostic of constructive upper policy, not a continuous theorem certificate or a test of arbitrary-cache minimax lower bounds.",
+  "rows": [
+    {
+      "S": 4,
+      "grid_points": 16385,
+      "grid_max_error": 0.02611073846749115,
+      "analytic_upper": 0.12011325347955035,
+      "upper_holds_on_grid": true,
+      "two_scalar_read_witness": {
+        "x": 1.0,
+        "cell_indices": [
+          1,
+          2
+        ],
+        "values": [
+          -1.0,
+          1.0,
+          1.0,
+          -1.0
+        ],
+        "absolute_error": 0.026110738467491137
+      }
+    },
+    {
+      "S": 8,
+      "grid_points": 16385,
+      "grid_max_error": 0.004882631901034884,
+      "analytic_upper": 0.02206161798603986,
+      "upper_holds_on_grid": true,
+      "two_scalar_read_witness": {
+        "x": 1.0,
+        "cell_indices": [
+          3,
+          4
+        ],
+        "values": [
+          -1.0,
+          1.0,
+          1.0,
+          -1.0
+        ],
+        "absolute_error": 0.004882631901034898
+      }
+    },
+    {
+      "S": 16,
+      "grid_points": 16385,
+      "grid_max_error": 0.0010667242497741647,
+      "analytic_upper": 0.0048045301391820144,
+      "upper_holds_on_grid": true,
+      "two_scalar_read_witness": {
+        "x": 1.0,
+        "cell_indices": [
+          7,
+          8
+        ],
+        "values": [
+          -1.0,
+          1.0,
+          1.0,
+          -1.0
+        ],
+        "absolute_error": 0.0010667242497742202
+      }
+    },
+    {
+      "S": 32,
+      "grid_points": 16385,
+      "grid_max_error": 0.0002499234909846826,
+      "analytic_upper": 0.0011248899909635309,
+      "upper_holds_on_grid": true,
+      "two_scalar_read_witness": {
+        "x": 1.0,
+        "cell_indices": [
+          15,
+          16
+        ],
+        "values": [
+          -1.0,
+          1.0,
+          1.0,
+          -1.0
+        ],
+        "absolute_error": 0.0002499234909846687
+      }
+    },
+    {
+      "S": 64,
+      "grid_points": 16385,
+      "grid_max_error": 6.05226482718324e-05,
+      "analytic_upper": 0.00027236565414864026,
+      "upper_holds_on_grid": true,
+      "two_scalar_read_witness": {
+        "x": 1.0,
+        "cell_indices": [
+          31,
+          32
+        ],
+        "values": [
+          -1.0,
+          1.0,
+          1.0,
+          -1.0
+        ],
+        "absolute_error": 6.0522648271818524e-05
+      }
+    },
+    {
+      "S": 128,
+      "grid_points": 16385,
+      "grid_max_error": 1.4893888360650864e-05,
+      "analytic_upper": 6.702332948824807e-05,
+      "upper_holds_on_grid": true,
+      "two_scalar_read_witness": {
+        "x": 1.0,
+        "cell_indices": [
+          63,
+          64
+        ],
+        "values": [
+          -1.0,
+          1.0,
+          1.0,
+          -1.0
+        ],
+        "absolute_error": 1.489388836067862e-05
+      }
+    }
+  ],
+  "log_log_slope_S_16_to_128": -2.0532908566911883
+}

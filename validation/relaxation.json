@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "per_cell": 9,
+  "library": [
+    {
+      "M": 1,
+      "grid_max": 0.19999999999999998,
+      "proved_upper": 1.0810192813159532,
+      "proved_lower": 0.0020833333333333333
+    },
+    {
+      "M": 2,
+      "grid_max": 0.04419417382415926,
+      "proved_upper": 0.2702548203289883,
+      "proved_lower": 0.0005208333333333333
+    },
+    {
+      "M": 4,
+      "grid_max": 0.012752230249581638,
+      "proved_upper": 0.06756370508224707,
+      "proved_lower": 0.00013020833333333333
+    },
+    {
+      "M": 8,
+      "grid_max": 0.003450632369985761,
+      "proved_upper": 0.016890926270561768,
+      "proved_lower": 3.255208333333333e-05
+    },
+    {
+      "M": 16,
+      "grid_max": 0.0008991626521145761,
+      "proved_upper": 0.004222731567640442,
+      "proved_lower": 8.138020833333333e-06
+    },
+    {
+      "M": 32,
+      "grid_max": 0.0002296051917333843,
+      "proved_upper": 0.0010556828919101105,
+      "proved_lower": 2.0345052083333333e-06
+    },
+    {
+      "M": 64,
+      "grid_max": 5.80195512371567e-05,
+      "proved_upper": 0.0002639207229775276,
+      "proved_lower": 5.086263020833333e-07
+    },
+    {
+      "M": 128,
+      "grid_max": 1.4583220265644136e-05,
+      "proved_upper": 6.59801807443819e-05,
+      "proved_lower": 1.2715657552083333e-07
+    }
+  ],
+  "pair_count_library": [
+    {
+      "S": 4,
+      "M": 6,
+      "grid_max": 0.005971424151905295,
+      "proved_upper": 0.030028313369887587
+    },
+    {
+      "S": 8,
+      "M": 28,
+      "grid_max": 0.00029898025353185904,
+      "proved_upper": 0.0013788511241274912
+    },
+    {
+      "S": 16,
+      "M": 120,
+      "grid_max": 1.6586497251311057e-05,
+      "proved_upper": 7.507078342471898e-05
+    },
+    {
+      "S": 32,
+      "M": 496,
+      "grid_max": 9.751040065411013e-07,
+      "proved_upper": 4.3941015272012924e-06
+    },
+    {
+      "S": 64,
+      "M": 2016,
+      "grid_max": 5.9086813289447584e-08,
+      "proved_upper": 2.659820841295315e-07
+    }
+  ],
+  "fitted_slope_in_S_16_to_64": -4.06647867056508,
+  "fitted_slope_M16_to_128": -1.9820669589416406,
+  "separation": [
+    {
+      "S": 2,
+      "pairs": 1,
+      "relaxation_upper": 1.0810192813159532,
+      "shared_dictionary_lower": 9.084046572579712e-05,
+      "ratio_lower_over_relaxation": 8.403223448078987e-05
+    },
+    {
+      "S": 4,
+      "pairs": 6,
+      "relaxation_upper": 0.030028313369887587,
+      "shared_dictionary_lower": 1.1433014500699068e-05,
+      "ratio_lower_over_relaxation": 0.00038074114785827774
+    },
+    {
+      "S": 16,
+      "pairs": 120,
+      "relaxation_upper": 7.507078342471898e-05,
+      "shared_dictionary_lower": 2.858971837845215e-07,
+      "ratio_lower_over_relaxation": 0.0038083681925501593
+    },
+    {
+      "S": 64,
+      "pairs": 2016,
+      "relaxation_upper": 2.659820841295315e-07,
+      "shared_dictionary_lower": 9.555588695691133e-09,
+      "ratio_lower_over_relaxation": 0.03592568547225017
+    },
+    {
+      "S": 256,
+      "pairs": 32640,
+      "relaxation_upper": 1.0146894385910328e-09,
+      "shared_dictionary_lower": 3.710274027007272e-10,
+      "ratio_lower_over_relaxation": 0.36565611958662414
+    },
+    {
+      "S": 1024,
+      "pairs": 523776,
+      "relaxation_upper": 3.940417605746109e-12,
+      "shared_dictionary_lower": 1.579142362354625e-11,
+      "ratio_lower_over_relaxation": 4.0075507734303155
+    },
+    {
+      "S": 4096,
+      "pairs": 8386560,
+      "relaxation_upper": 1.5369711777085538e-14,
+      "shared_dictionary_lower": 7.151304262802885e-13,
+      "ratio_lower_over_relaxation": 46.52855152082066
+    },
+    {
+      "S": 1000000,
+      "pairs": 499999500000,
+      "relaxation_upper": 4.324085773431035e-24,
+      "shared_dictionary_lower": 5.624735847428247e-18,
+      "ratio_lower_over_relaxation": 1300791.9227664128
+    }
+  ],
+  "scope": "floating grid diagnostic; continuous bounds are proved in the manuscript"
+}

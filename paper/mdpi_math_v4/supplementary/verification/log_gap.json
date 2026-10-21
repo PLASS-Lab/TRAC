@@ -1,0 +1,112 @@
+{
+ "all_pass": true,
+ "failed": [],
+ "n_checks": 24,
+ "analytic_inputs": [
+  "pi > 3",
+  "Euler e < 3"
+ ],
+ "checks": {
+  "sqrt8_upper": {
+   "pass": true,
+   "reason": "(99/35)^2 > 8"
+  },
+  "near_tangent_plus_rank_one": {
+   "pass": true,
+   "reason": "9 + 32*sqrt(8) < 100"
+  },
+  "transverse_far_band": {
+   "pass": true,
+   "reason": "6e/sqrt(1/16)=24e per plane, S^2/2 pairs -> 12 S^2 e"
+  },
+  "band_floor": {
+   "pass": true,
+   "reason": "delta_{L-1}/4 < 32e/4 = 8e, so bands + near-tangent exhaust (0,1/16]"
+  },
+  "bins_per_center": {
+   "pass": true,
+   "reason": "18t/ell + 2 <= 38 for ell >= t/2"
+  },
+  "light_constant": {
+   "pass": true,
+   "reason": "6 * 76 = 456"
+  },
+  "pair_count": {
+   "pass": true,
+   "reason": "binom(m,2) <= m^2/2"
+  },
+  "transverse_band": {
+   "pass": true,
+   "reason": "6e/sqrt(delta_k/4) = 12e/t"
+  },
+  "arc_length": {
+   "pass": true,
+   "reason": "A_I has length ell+18t <= 19t <= 19/4 < 6 < 2pi: a proper arc"
+  },
+  "vitali_enlargement": {
+   "pass": true,
+   "reason": "b <= a, B meets A => every point of B within |B| + |A|/2 <= 3|A|/2 of mid(A)"
+  },
+  "heavy_constant": {
+   "pass": true,
+   "reason": "|H| <= 3*sum|A_p| < 3*19*sum mu(A_p)/lam <= 57*2S/lam"
+  },
+  "lambda_balance": {
+   "pass": true,
+   "reason": "lam=1/(2 sqrt(eL)) gives 114S/lam + 456 lam e S L = 456 S sqrt(eL)"
+  },
+  "e0_small": {
+   "pass": true,
+   "reason": "e0 <= 1/(4K) <= 1/128 for S>=2 (1+log S >= 1)"
+  },
+  "K_over_128": {
+   "pass": true,
+   "reason": "10^7/128 = 5^7 = 78125"
+  },
+  "five7_le_four9": {
+   "pass": true,
+   "reason": "5^7=78125 <= 4^9=262144, so 7 log5/log4 <= 9"
+  },
+  "log4_lower": {
+   "pass": true,
+   "reason": "e^3 < 27 <= 4^10, hence 3/log 4 <= 10"
+  },
+  "sqrt_ratio": {
+   "pass": true,
+   "reason": "sqrt(10/K) = 1/1000 exactly"
+  },
+  "100_over_sqrtK": {
+   "pass": true,
+   "reason": "100/sqrt(10^7) < 0.0317"
+  },
+  "final_margin": {
+   "pass": true,
+   "reason": "0.456 + 0.0317 + 12e-7 = 0.4877012 < 1 < pi/3"
+  },
+  "arc_longer_than_one": {
+   "pass": true,
+   "reason": "pi/3 > 1"
+  },
+  "theorem_constant": {
+   "pass": true,
+   "reason": "factor-6 transfer: 1/(6e7 S^2 (1+log S))"
+  },
+  "family_constant": {
+   "pass": true,
+   "reason": "factor-10 transfer (thm:family): 1/(1e8 S^2(1+log S))"
+  },
+  "relax_constant": {
+   "pass": true,
+   "reason": "ratio >= (S-1)^2 / (5.4e8 (log2)^2 (1+log S))"
+  },
+  "improves_old": {
+   "pass": true,
+   "reason": "6e8(1+y)^2 - 6e7(1+y) = 6e8 y^2 + 1.14e9 y + 5.4e8 > 0: new bound exceeds old for all S>=2"
+  }
+ },
+ "float_diagnostics": {
+  "first_S_new_bound_beats_1_over_2304S3_float": 359154,
+  "first_S_relax_ratio_exceeds_one_float": 55627,
+  "old_vs_new_ratio_at_S=1e6_float": 148.15510557964274
+ }
+}

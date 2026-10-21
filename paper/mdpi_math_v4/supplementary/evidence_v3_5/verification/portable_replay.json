@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "baseline_scores_replayed": 72,
+  "summary_groups_replayed": 24,
+  "paired_intervals_replayed": 288,
+  "timing_configurations": 24,
+  "native_reference_shape": [
+    480,
+    640
+  ],
+  "native_filter_configurations_replayed": 6,
+  "max_baseline_metric_gap": 0.0,
+  "max_archived_direct_gap": 2.220446049250313e-15,
+  "max_archived_uniform_gap": 1.7763568394002505e-15,
+  "max_explicit_GPA_gap": 3.552713678800501e-15,
+  "max_metric_replay_gap": 0.0,
+  "max_group_bootstrap_gap": 0.0
+}

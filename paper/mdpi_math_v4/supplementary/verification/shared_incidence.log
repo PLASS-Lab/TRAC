@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "exact_counts": {
+    "projection_identities": 65,
+    "pair_incidence_identities": 648,
+    "rank_zero_pairs": 1,
+    "rank_one_pairs": 49,
+    "rank_two_pairs": 275,
+    "snapshot_witnesses": 206,
+    "curvature_checks": 65
+  },
+  "numerical": {
+    "kind": "floating-point diagnostic, not exact certification",
+    "cases": 672,
+    "near_cases": 384,
+    "far_cases": 288,
+    "far_exterior_empty_cases": 96,
+    "max_near_length_bound_ratio": 0.7359127988988918,
+    "max_far_length_bound_ratio": 0.46035120567857835
+  }
+}

@@ -1,0 +1,148 @@
+freeze written before diagnostic scoring
+images 1/24, schemes 128
+images 2/24, schemes 256
+images 3/24, schemes 384
+images 4/24, schemes 512
+images 5/24, schemes 640
+images 6/24, schemes 768
+images 7/24, schemes 896
+images 8/24, schemes 1024
+images 9/24, schemes 1152
+images 10/24, schemes 1280
+images 11/24, schemes 1408
+images 12/24, schemes 1536
+images 13/24, schemes 1664
+images 14/24, schemes 1792
+images 15/24, schemes 1920
+images 16/24, schemes 2048
+images 17/24, schemes 2176
+images 18/24, schemes 2304
+images 19/24, schemes 2432
+images 20/24, schemes 2560
+images 21/24, schemes 2688
+images 22/24, schemes 2816
+images 23/24, schemes 2944
+images 24/24, schemes 3072
+diagnostics completed
+[
+  {
+    "sigma_r": 0.05,
+    "tolerance": 0.01,
+    "schemes": 384,
+    "adaptive_S_median": 78.0,
+    "adaptive_S_min": 2,
+    "adaptive_S_max": 207,
+    "local_uniform_S_median": 584.5,
+    "global_uniform_S": 1001,
+    "local_uniform_over_adaptive_median": 5.936322605965463,
+    "local_uniform_over_adaptive_min": 1.0,
+    "local_uniform_over_adaptive_max": 16.633333333333333,
+    "max_sampled_error_over_tolerance": 0.5493546126593752,
+    "adaptive_better_same_S_count": 341
+  },
+  {
+    "sigma_r": 0.05,
+    "tolerance": 0.001,
+    "schemes": 384,
+    "adaptive_S_median": 175.5,
+    "adaptive_S_min": 2,
+    "adaptive_S_max": 476,
+    "local_uniform_S_median": 1846.5,
+    "global_uniform_S": 3164,
+    "local_uniform_over_adaptive_median": 8.487800141242937,
+    "local_uniform_over_adaptive_min": 0.8235294117647058,
+    "local_uniform_over_adaptive_max": 23.886363636363637,
+    "max_sampled_error_over_tolerance": 0.6710409309762602,
+    "adaptive_better_same_S_count": 342
+  },
+  {
+    "sigma_r": 0.1,
+    "tolerance": 0.01,
+    "schemes": 384,
+    "adaptive_S_median": 40.0,
+    "adaptive_S_min": 2,
+    "adaptive_S_max": 92,
+    "local_uniform_S_median": 147.0,
+    "global_uniform_S": 251,
+    "local_uniform_over_adaptive_median": 3.199433304272014,
+    "local_uniform_over_adaptive_min": 1.0,
+    "local_uniform_over_adaptive_max": 7.382352941176471,
+    "max_sampled_error_over_tolerance": 0.6163758466346693,
+    "adaptive_better_same_S_count": 319
+  },
+  {
+    "sigma_r": 0.1,
+    "tolerance": 0.001,
+    "schemes": 384,
+    "adaptive_S_median": 98.0,
+    "adaptive_S_min": 2,
+    "adaptive_S_max": 219,
+    "local_uniform_S_median": 462.5,
+    "global_uniform_S": 792,
+    "local_uniform_over_adaptive_median": 4.086681526887713,
+    "local_uniform_over_adaptive_min": 0.7878787878787878,
+    "local_uniform_over_adaptive_max": 8.494623655913978,
+    "max_sampled_error_over_tolerance": 0.7871723550483276,
+    "adaptive_better_same_S_count": 317
+  },
+  {
+    "sigma_r": 0.2,
+    "tolerance": 0.01,
+    "schemes": 384,
+    "adaptive_S_median": 27.0,
+    "adaptive_S_min": 2,
+    "adaptive_S_max": 41,
+    "local_uniform_S_median": 38.0,
+    "global_uniform_S": 64,
+    "local_uniform_over_adaptive_median": 1.5469208211143695,
+    "local_uniform_over_adaptive_min": 0.75,
+    "local_uniform_over_adaptive_max": 4.4,
+    "max_sampled_error_over_tolerance": 0.6115023782837472,
+    "adaptive_better_same_S_count": 245
+  },
+  {
+    "sigma_r": 0.2,
+    "tolerance": 0.001,
+    "schemes": 384,
+    "adaptive_S_median": 69.0,
+    "adaptive_S_min": 2,
+    "adaptive_S_max": 120,
+    "local_uniform_S_median": 117.0,
+    "global_uniform_S": 199,
+    "local_uniform_over_adaptive_median": 1.8249528598365807,
+    "local_uniform_over_adaptive_min": 0.7058823529411765,
+    "local_uniform_over_adaptive_max": 7.222222222222222,
+    "max_sampled_error_over_tolerance": 0.7855360644943038,
+    "adaptive_better_same_S_count": 225
+  },
+  {
+    "sigma_r": 0.4,
+    "tolerance": 0.01,
+    "schemes": 384,
+    "adaptive_S_median": 13.0,
+    "adaptive_S_min": 2,
+    "adaptive_S_max": 17,
+    "local_uniform_S_median": 11.0,
+    "global_uniform_S": 17,
+    "local_uniform_over_adaptive_median": 1.0,
+    "local_uniform_over_adaptive_min": 0.6666666666666666,
+    "local_uniform_over_adaptive_max": 3.5,
+    "max_sampled_error_over_tolerance": 0.615943528601258,
+    "adaptive_better_same_S_count": 2
+  },
+  {
+    "sigma_r": 0.4,
+    "tolerance": 0.001,
+    "schemes": 384,
+    "adaptive_S_median": 33.0,
+    "adaptive_S_min": 2,
+    "adaptive_S_max": 55,
+    "local_uniform_S_median": 30.0,
+    "global_uniform_S": 51,
+    "local_uniform_over_adaptive_median": 0.9344086021505376,
+    "local_uniform_over_adaptive_min": 0.6129032258064516,
+    "local_uniform_over_adaptive_max": 5.666666666666667,
+    "max_sampled_error_over_tolerance": 0.7538502276595023,
+    "adaptive_better_same_S_count": 2
+  }
+]

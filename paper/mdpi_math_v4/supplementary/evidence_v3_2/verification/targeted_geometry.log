@@ -1,0 +1,75 @@
+{
+  "scope": "v3.1 finite geometry and correction witnesses",
+  "manuscript_sha256": "5a9c75f2b6137675fdd2ad16c6938945fe909b37b34c7385c7b6e5d81f919476",
+  "checks": [
+    {
+      "name": "max_tolerance_not_first_tolerance_S2",
+      "passed": true,
+      "kind": "high_precision_counterexample",
+      "ratio_e2_e1": 7.382701364370516
+    },
+    {
+      "name": "U_is_subset_not_equal_to_residual_union",
+      "passed": true,
+      "kind": "exact_rational_counterexample",
+      "normal": [
+        "1/2",
+        "3/5",
+        "4/5"
+      ],
+      "point": [
+        "1",
+        "-144/145",
+        "17/145"
+      ],
+      "tolerance": "1/450",
+      "residual": "3/1450",
+      "l1_distance": "3/1160"
+    },
+    {
+      "name": "active_cap_does_not_imply_heavy",
+      "passed": true,
+      "kind": "high_precision_counterexample",
+      "e": 0.01,
+      "beta0": 0.02,
+      "beta1": 0.04,
+      "J": 5,
+      "m": 4,
+      "tau": 100
+    },
+    {
+      "name": "closed_arc_hits_at_most_two_half_open_bins",
+      "passed": true,
+      "kind": "exact_rational_finite_cases",
+      "cases": 8576,
+      "max_count": 2
+    },
+    {
+      "name": "minimal_arc_subcover_multiplicity",
+      "passed": true,
+      "kind": "exact_integer_finite_cases",
+      "families": 3000,
+      "max_multiplicity": 2,
+      "removed_arcs": 38985
+    },
+    {
+      "name": "rank_one_spans_embed_in_rank_two_dictionary_spans",
+      "passed": true,
+      "kind": "exact_integer_finite_cases",
+      "dictionaries": 503,
+      "rank_one_pairs": 5369,
+      "all_zero_and_all_parallel": "separate common-plane branch"
+    },
+    {
+      "name": "fixed_center_localization_targeted",
+      "passed": true,
+      "kind": "80_digit_numerical_diagnostics",
+      "cases": 4032,
+      "clipped_atom_cases": 180,
+      "max_ratio": 1.0,
+      "r_u_zero_case": "analytic: n.u=0 forces a=0, r=1, Delta=1"
+    }
+  ],
+  "all_checks_passed": true,
+  "limit": "Finite exact cases and numerical diagnostics do not prove continuous lemmas."
+}

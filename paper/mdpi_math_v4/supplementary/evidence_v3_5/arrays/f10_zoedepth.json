@@ -1,0 +1,14 @@
+{
+  "frame": "f10",
+  "model": "zoedepth",
+  "array_sha256": "017cffd924c8b4fb5625f278a8da655d29f117e6ce722a585a93343626cef995",
+  "forward_wall_s": 0.0665276680374518,
+  "min": 1.1138485670089722,
+  "max": 4.485658168792725,
+  "processor_input_shape": [
+    1,
+    3,
+    384,
+    512
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "canonical_url": "https://r0k.us/graphics/kodak/",
+  "mirror": "MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite",
+  "commit": "dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b",
+  "images": [
+    {
+      "index": 1,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim01.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/01.png",
+      "sha256": "a56e27cbf5f843c048b6af1d6e090760e9c92fadba88b7dee0205918a37523bd",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 2,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim02.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/02.png",
+      "sha256": "4f4b74a79237e311d72cad958237b5f7088d8bce1c82305ebefe1a70e3022dfd",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 3,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim03.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/03.png",
+      "sha256": "e25ca1ff2f0c0cb5fdfd5f9b0a0bb21ac4c3de3c84a67f35b09a85d3306249db",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 4,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim04.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/04.png",
+      "sha256": "e3b946107c5d3441c022f678d0c3caf1e224d81b1604ba840a4f88e562de61aa",
+      "size": [
+        512,
+        768
+      ]
+    },
+    {
+      "index": 5,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim05.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/05.png",
+      "sha256": "10349e963c5c813d327852f82c1795fa4148d69fedffc4c589bee458e3ac3d53",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 6,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim06.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/06.png",
+      "sha256": "363510303b715d4cbc384e1ce227e466b613a09e1b71ae985882bf8e7fbd9b18",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 7,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim07.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/07.png",
+      "sha256": "b77d3f006f42414bb242222e0482e750c0fb9e5ee8d4bed2f6f11c5605fe54a4",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 8,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim08.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/08.png",
+      "sha256": "ba23983c76b4832ee0e8af0592664756841a16779acd69f792e268fb6d13d6e7",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 9,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim09.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/09.png",
+      "sha256": "6a4361c2fc194feb4edaa9f9a4a0620fb9943e460ac7fdf037fb0f6dd6607a7d",
+      "size": [
+        512,
+        768
+      ]
+    },
+    {
+      "index": 10,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim10.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/10.png",
+      "sha256": "9dfb70f5867c29ff9ed6313683f19b3d867849e40fbc0c4c54a4a89df341cf23",
+      "size": [
+        512,
+        768
+      ]
+    },
+    {
+      "index": 11,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim11.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/11.png",
+      "sha256": "7936814b58b5387fce2e4e2488b4ec830dadd95fa9520f358ddb30990b50f2b6",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 12,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim12.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/12.png",
+      "sha256": "d78c37c2f04f23761ed2367dd77e2db584ddd4c3950833fecf89f199a8126980",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 13,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim13.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/13.png",
+      "sha256": "bc34a3ce58dea09dce1704c997171602de90cb34d0c8503a988b77f473d39b08",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 14,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim14.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/14.png",
+      "sha256": "55a94550ff18f3246c4074fd32b77b0c74447c26b6ad274d564d999c0450ba6e",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 15,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim15.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/15.png",
+      "sha256": "7538cbb80cb9103606c48b806eae57d56c885c7f90b9b3be70a41160f9cbb683",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 16,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim16.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/16.png",
+      "sha256": "a89c7268ccd4718ba424a99fc4643c572cf692ca6eae887185ceb4e9f11d2e54",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 17,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim17.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/17.png",
+      "sha256": "37afcc89fbdcb76d9518e04b2fc011027e2f4cd14b3b2f83cefd721641a47c5b",
+      "size": [
+        512,
+        768
+      ]
+    },
+    {
+      "index": 18,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim18.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/18.png",
+      "sha256": "1a9258c365988961d87a0598725b609139c303ad48a5aad6c503c3b1a87849aa",
+      "size": [
+        512,
+        768
+      ]
+    },
+    {
+      "index": 19,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim19.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/19.png",
+      "sha256": "b7450b264b1b0a411390d8931b112c27905a992520fc90569dc4b920aa32bbdc",
+      "size": [
+        512,
+        768
+      ]
+    },
+    {
+      "index": 20,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim20.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/20.png",
+      "sha256": "3b46c71e3b92a563820ba32936be8330c586c41f938efd94be938386aae4328a",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 21,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim21.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/21.png",
+      "sha256": "ac958597c82073f6bb65129c68f72b651db5b9efd82e11547d07350214bc268b",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 22,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim22.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/22.png",
+      "sha256": "1cee58eb1f2d9c7ebb254d208a03c783ce6cf2c4d8c2cf45e235dd23b4ce1b29",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 23,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim23.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/23.png",
+      "sha256": "e3111a2fd4da24af15d6459ef9eacfe54106b38e27b4a21821b75c3f5d2d5baf",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "index": 24,
+      "path": "/workspace/SOKKANAEM/work_dirs/mdpi_math_v3_4/kodak/kodim24.png",
+      "source_url": "https://raw.githubusercontent.com/MohamedBakrAli/Kodak-Lossless-True-Color-Image-Suite/dd2e1105fe8d9afe1120cd7e4c0e5e41f509a81b/PhotoCD_PCD0992/24.png",
+      "sha256": "1071c68372cc5a01435c2c225a5cf7d4bb803846ec08bb6b3d6721b156d7cb96",
+      "size": [
+        768,
+        512
+      ]
+    }
+  ]
+}

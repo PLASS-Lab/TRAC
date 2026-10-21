@@ -1,0 +1,105 @@
+{
+  "scope": "independent exact-rational constant/case audit; analytic pi and log inequalities stated explicitly; continuous incidence proof not machine certified",
+  "script_sha256": "89c0b2d8a63f30254f6bbd30d1ae43c7835a125bbc4c6789e42d438ef81a8efc",
+  "checks": {
+    "near_tangent_shared_atom_constant": {
+      "upper_expression": "220/7",
+      "required_strict_upper": "32/1",
+      "margin": "4/7",
+      "reason": "4*pi*(1+sqrt(2)) < 32"
+    },
+    "fixed_center_radius_constant": {
+      "upper_expression": "440/49",
+      "required_strict_upper": "9/1",
+      "margin": "1/49",
+      "reason": "2*pi*sqrt(2) < 9"
+    },
+    "near_tangent_multiscale_group": {
+      "upper_expression": "3483/35",
+      "required_strict_upper": "100/1",
+      "margin": "17/35",
+      "reason": "rank-one 9 plus near-tangent 32*sqrt(8) < 100"
+    },
+    "one_band_bin_constant": {
+      "upper_expression": "196/1",
+      "required_strict_upper": "200/1",
+      "margin": "4/1",
+      "reason": "80*sqrt(6) < 200; certified upper sqrt(6)<49/20"
+    },
+    "short_arc_unwrap": {
+      "upper_expression": "9/2",
+      "required_strict_upper": "6/1",
+      "margin": "3/2",
+      "reason": "18*t <= 18/4 < 6 < 2*pi, since pi>3"
+    },
+    "near_tangent_ratio": {
+      "upper_expression": "8/5",
+      "required_strict_upper": "4/1",
+      "margin": "12/5",
+      "reason": "(e+delta)/(1-delta) <= 1.5*delta/(15/16) < 4*delta"
+    },
+    "small_atom_excluded": {
+      "upper_expression": "1/8",
+      "required_strict_upper": "1/2",
+      "margin": "3/8",
+      "reason": "2*delta <= 1/8 < 1-r_u when r_u<1/2"
+    },
+    "bin_overlap_count": {
+      "upper_expression": "38/1",
+      "required_strict_upper": "39/1",
+      "margin": "1/1",
+      "reason": "length 18*t, bin length at least t/2, plus two endpoints gives <=38"
+    },
+    "bin_center_sum": {
+      "upper_expression": "76/1",
+      "required_strict_upper": "80/1",
+      "margin": "4/1",
+      "reason": "at most two centers per atom and 38 bins per center"
+    },
+    "basic_circle_coverage": {
+      "upper_expression": "67/128",
+      "required_strict_upper": "1/1",
+      "margin": "61/128",
+      "reason": "delta^0.5=1/(64S), M<=S^2/2, e<1/(8192S^3)"
+    },
+    "stronger_circle_S_threshold": {
+      "upper_expression": "64/3",
+      "required_strict_upper": "22/1",
+      "margin": "2/3",
+      "reason": "e<1/(384S^3) implies e<=delta/2 for integer S>=22"
+    },
+    "stronger_circle_strictness": {
+      "identity": "1/2 + 192/384 = 1",
+      "reason": "the contradiction uses e strictly below 1/(384S^3)"
+    },
+    "final_multiscale_coverage": {
+      "upper_expression": "7750003/25000000",
+      "required_strict_upper": "1/1",
+      "margin": "17249997/25000000",
+      "reason": "e0=1/(10^8 S^2(1+log S)^2)"
+    },
+    "minimax_tolerance": {
+      "upper_expression": "1/400000000",
+      "required_strict_upper": "1/128",
+      "margin": "3124999/400000000",
+      "reason": "e0<=1/(10^8*4) for S>=2"
+    },
+    "band_count_log_constants": {
+      "exact_integer_witness": "10^2=100 < 128=2^7",
+      "analytic_inputs": [
+        "log(2)>2/3 from positive atanh series",
+        "1+log(S)<=S for S>=1"
+      ],
+      "consequence": "8log(10)/log(4)<14 and 4/log(4)<3, hence L<15+3log(S)"
+    },
+    "band_endpoints": {
+      "identity": "k=floor(log_4(1/(128e))) implies 8e<=delta_k<32e",
+      "consequence": "e<=delta_k/8 and all lower bands are covered by the Delta<=8e case"
+    },
+    "bin_width": {
+      "identity": "J=ceil(2pi/t) implies t/(1+t/(2pi))<2pi/J<=t",
+      "consequence": "t/2<ell<=t for t<=1/4"
+    }
+  },
+  "passed": 17
+}

@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "kind": "floating-point diagnostics, not formal or exhaustive proof",
+  "endpoint_localization_checks": 6240,
+  "max_localization_ratio": 0.2601181045550496,
+  "max_band_length_ratio": 0.46751392571016953,
+  "max_constructed_incidence_residual": 6.661338147750939e-16,
+  "max_bins_per_center": 20,
+  "constant_checks": [
+    {
+      "S": 2,
+      "e": 8.720684709676523e-10,
+      "bands": 12,
+      "coverage_upper": 0.14765406914669693
+    },
+    {
+      "S": 3,
+      "e": 2.5228595137923244e-10,
+      "bands": 13,
+      "coverage_upper": 0.12865647391781893
+    },
+    {
+      "S": 10,
+      "e": 9.16836653827468e-12,
+      "bands": 15,
+      "coverage_upper": 0.09386587403691514
+    },
+    {
+      "S": 100,
+      "e": 3.1828955963579586e-14,
+      "bands": 19,
+      "coverage_upper": 0.06957862267656653
+    },
+    {
+      "S": 10000,
+      "e": 9.592229479631627e-19,
+      "bands": 27,
+      "coverage_upper": 0.05386696150329613
+    },
+    {
+      "S": 100000000,
+      "e": 2.6513746649037542e-27,
+      "bands": 41,
+      "coverage_upper": 0.042737946064915544
+    },
+    {
+      "S": 10000000000000000,
+      "e": 6.98339315948967e-44,
+      "bands": 69,
+      "coverage_upper": 0.036732293673297674
+    }
+  ],
+  "unresolved": [
+    "human peer review or formal proof certification",
+    "logarithmic gap",
+    "literature priority"
+  ]
+}

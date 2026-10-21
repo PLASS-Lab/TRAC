@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checks": {
+    "V3_3_all_1230_files_unchanged": true,
+    "all_inherited_figure_and_evidence_assets_unchanged": true,
+    "43_math_blocks_only_two_endpoint_proofs_clarified": true,
+    "all_original_numbered_equations_byte_identical": true,
+    "all_30_equations_referenced": true,
+    "original_multiscale_constant_proof_byte_identical": true,
+    "main_12_figures_supplement_9_figures": true,
+    "actual_network_inference_figure_retained_once": true,
+    "new_audit_and_kodak_in_main_and_supplement": true,
+    "experiment_sources_match_prescore_freeze": true,
+    "24_complete_images_pinned_mirror": true,
+    "record_counts_and_frozen_inputs": true,
+    "all_3072_caches_and_3148800_queries_replayed": true,
+    "timing_grids_query_hashes_15_repeats_and_complete_totals": true,
+    "zero_violations_and_retained_unfavorable_cases": true,
+    "result_tables_match_frozen_summary": true,
+    "new_exact_audit_four_checks_current_source": true,
+    "retained_44_constants_and_7_geometry_current_source": true,
+    "manuscript_layout_references_and_pdf_text": true,
+    "manuscript_valid_embedded_fonts": true,
+    "supplementary_layout_references_and_pdf_text": true,
+    "supplementary_valid_embedded_fonts": true,
+    "supplement_S12_S13_navigation": true
+  },
+  "pages": {
+    "manuscript": 36,
+    "supplementary": 23
+  },
+  "replayed_caches": 3072,
+  "replayed_queries": 3148800,
+  "max_replay_difference": 0.0,
+  "replay_failures": [],
+  "V3_3_files_preserved": 1230,
+  "inherited_assets_preserved": 1140
+}
